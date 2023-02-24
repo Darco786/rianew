@@ -1,0 +1,1628 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    
+<title>RE2
+</title>
+                
+        
+<link rel="shortcut icon" href="https://app.marketingblocks.ai/image/favico.png">
+        
+<meta charset="utf-8">
+    
+<meta name="description" content="">
+    
+<meta name="referrer" content="origin-when-crossorigin" id="meta_referrer">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    
+<link href="https://app.marketingblocks.ai/css/app.css" rel="stylesheet">
+
+    
+<link rel="stylesheet" type="text/css" href="./css/animations.css" rel="stylesheet">
+    
+<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+    
+<link rel="stylesheet" type="text/css" href="./css/layout-editor.css">
+    
+<link rel="stylesheet" type="text/css" href="./css/color.css">
+    
+<link rel="stylesheet" type="text/css" href="./css/editor.css">
+    
+<link rel="stylesheet" type="text/css" href="./css/section.css">
+    
+<link rel="stylesheet" type="text/css" href="./css/elements.css">
+    
+<link rel="stylesheet" type="text/css" href="./css/ci-layout.css">
+    
+<link rel="stylesheet" type="text/css" href="./css/jquery.toast.min.css">
+    
+<link rel="stylesheet" type="text/css" href="./css/slick.css">
+    
+<link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
+    
+<link rel="stylesheet" type="text/css" href="./css/owl.carousel.min.css">
+    
+    
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+<link href="https://fonts.googleapis.com/css?family=sans-serif:700,700italic|Acme:400,400italic|Advent+Pro:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic|Aguafina+Script:400,400italic|Alex+Brush:400,400italic|Allan:400,400italic,700,700italic|Amatic+SC:400,400italic,700,700italic|Amiri:400,400italic,700,700italic|Anton:400,400italic|Archivo+Black:400,400italic|Arimo:400,400italic,500,500italic,600,600italic,700,700italic|Arizonia:400,400italic|Audiowide:400,400italic|Bad+Script:400,400italic|Baloo+2:400,400italic,500,500italic,600,600italic,700,700italic,800,800italic|Bellota:300,300italic,400,400italic,700,700italic|Bitter:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Bungee+Inline:400,400italic|Carter+One:400,400italic|Caveat:400,400italic,500,500italic,600,600italic,700,700italic|Cedarville+Cursive:400,400italic|Cinzel:400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Cookie:400,400italic|Cormorant+Garamond:300,300italic,400,400italic,500,500italic,600,600italic,700,700italic|Courgette:400,400italic|Crimson+Text:400,400italic,600,600italic,700,700italic|Damion:400,400italic|Dancing+Script:400,400italic,500,500italic,600,600italic,700,700italic|Dosis:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic|EB+Garamond:400,400italic,500,500italic,600,600italic,700,700italic,800,800italic|Ewert:400,400italic|Faster+One:400,400italic|Fjalla+One:400,400italic|Fondamento:400,400italic|Fredoka+One:400,400italic|Galada:400,400italic|Gloria+Hallelujah:400,400italic|Gochi+Hand:400,400italic|Gotu:400,400italic|Great+Vibes:400,400italic|Handlee:400,400italic|Homemade+Apple:400,400italic|Inconsolata:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Indie+Flower:400,400italic|Josefin+Sans:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic|Kalam:300,300italic,400,400italic,700,700italic|Kaushan+Script:400,400italic|Kelly+Slab:400,400italic|Knewave:400,400italic|Kristi:400,400italic|Lalezar:400,400italic|Leckerli+One:400,400italic|Lobster+Two:400,400italic,700,700italic|Marck+Script:400,400italic|Merriweather:300,300italic,400,400italic,700,700italic,900,900italic|Merriweather+Sans:300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic|Monoton:400,400italic|Montez:400,400italic|Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Montserrat+Subrayada:400,400italic,700,700italic|Mr+Dafoe:400,400italic|Niconne:400,400italic|Norican:400,400italic|Nunito:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Open+Sans:300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic|Oswald:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic|Overpass:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Pacifico:400,400italic|Parisienne:400,400italic|Passion+One:400,400italic,700,700italic,900,900italic|Patua+One:400,400italic|Permanent+Marker:400,400italic|Pinyon+Script:400,400italic|Playball:400,400italic|Playfair+Display:400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Poppins:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Rajdhani:300,300italic,400,400italic,500,500italic,600,600italic,700,700italic|Rammetto+One:400,400italic|Reenie+Beanie:400,400italic|Righteous:400,400italic|Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic|Roboto+Mono:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic|Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Rochester:400,400italic|Rock+Salt:400,400italic|Sacramento:400,400italic|Satisfy:400,400italic|Shrikhand:400,400italic|Sigmar+One:400,400italic|Signika:300,300italic,400,400italic,500,500italic,600,600italic,700,700italic|Six+Caps:400,400italic|Slabo+27px:400,400italic|Sofia:400,400italic|Spicy+Rice:400,400italic|Srisakdi:400,400italic,700,700italic|Syncopate:400,400italic,700,700italic|Tangerine:400,400italic,700,700italic|Titan+One:400,400italic|Ultra:400,400italic|Vast+Shadow:400,400italic|Zilla+Slab:300,300italic,400,400italic,500,500italic,600,600italic,700,700italic&display=swap" rel="stylesheet" type='text/css'>
+
+    
+<script src=".js/app.js">
+</script>
+    
+<script src="js/jquery-3.2.1.min.js">
+</script>
+    
+<script type="text/javascript" src="./js/jquery.toast.min.js">
+</script>
+    
+<script src="js/slick.js" type="text/javascript" charset="utf-8">
+</script>
+    
+<script src="js/owl.carousel.min.js" type="text/javascript">
+</script>
+    
+<script src="js/download_page.js" type="text/javascript">
+</script>
+
+
+    
+<script>
+      function resizeIframe(obj) {
+        
+      }
+    
+</script>
+    
+<style type="text/css">
+        .rce-landinpage-inner{
+            display: block !important;
+        }
+        .rce-device-iframe{
+            display: none !important;
+        }
+    
+</style>
+
+        
+</head>
+
+<body>
+    	
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+	
+<style type="text/css">
+		 .rc-modal {
+		    width: 800px;
+		    top: calc(50VH - 265px);
+		    padding: 60px 120px;
+		}
+		.none-show-page{
+			display: none !important;
+		}
+	   
+		.timer-bar-fixed{
+			position: fixed !important;
+			width: 100% !important;
+			top: 0px;
+			z-index: 100;
+		}  
+		#signup_modal{
+			bottom: unset;
+		}
+		.ci-pbm-wrap{
+			bottom: 20px;
+			right: 20px;
+		}
+		.rce-element-resize-handle:after{
+			content: unset !important;
+		}
+		.rce-column-blank{
+			display: none;
+		}
+		.rce-column{
+			border: 0px;
+		}
+	
+</style>
+	
+<div data-title="section" class="rc-modal rce-block" id="signup_modal" data-desktop_bg_img="none" data-desktop_bg_color="rgb(255, 255, 255)" data-desktop_style="position: fixed; bottom: unset; top: calc(50vh - 280px); padding: 60px 80px; display: none;">
+
+<div class="rc-loading-overlay-wrap">
+</div>
+
+<div class="rc-modal-progress-wrap">
+
+</div>
+
+<div class="rc-modal-header" style="height:unset; background-color: transparent;">
+
+<div>
+</div>
+
+<div data-title="text" id="rce_signup_ele_popup_title" class="rce-element rce-text rc-modal-header-title">Yes, Please Send Me More Info
+</div>
+
+<div data-title="text" id="rce_signup_ele_popup_subtitle" class="rce-element rce-text">
+Please Enter Your Details Below:
+
+</div>
+
+<div class="rc-modal-close" style="right: -15px; top: -15px;  background-color: black !important; border: 2px solid white; box-shadow: -1px 1px 2px black;">
+<i class="fa fa-times">
+</i>
+</div>
+
+</div>
+
+<div class="rc-modal-content" style="padding-top: 20px;">
+
+<form action="" method="post" enctype="multipart/form-data">
+
+<input type="hidden" name="_token" value="WhdFisMscShWpZ3oPrMtLSTO1HeESpQ4ZF94BTN3"> 
+<div>
+
+<input class="form-control rc-required rce-element rce-input for-device" data-title="input" type="text" name="user_name" id="rce_signup_ele_popup_name" placeholder="Your Name" required="">
+
+</div>
+
+<div style="margin-top: 10px;">
+
+<input class="form-control rc-required rce-element rce-input for-device" data-title="input" type="email" name="email" id="rce_signup_ele_popup_email" placeholder="Your Email" required="">
+
+</div>
+<div class="rce-custom-field" style="display: block;">
+</div>
+
+<div style="margin: 10px 0px;">
+
+<button data-title="button" type="button" class="rce-element rce-button btn rce-direct-signup-btn for-device" id="rce_signup_ele_popup_submit">
+<span contenteditable="true">Get Access Now &gt;&gt;
+</span>
+</button>
+
+</div>
+
+<div>
+
+<button data-title="button" type="button" class="rce-element rce-button btn facebook-signup-btn for-device" id="rce_signup_ele_popup_facebook">
+<span contenteditable="true">Log in With Facebook
+</span>
+</button>
+
+</div>
+
+<div data-title="text" id="rce_signup_ele_popup_subtitle_1" class="rce-element rce-text">
+* we will not spam, rent, or sell your information... *
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+<div data-title="section" class="rc-modal rce-block mCS_destroyed" id="rce_exit_popup_modal" data-status="no" data-desktop_bg_img="none" data-desktop_bg_color="rgb(255, 255, 255)" data-desktop_style="padding: 0px; position: fixed; font-size: 0px; bottom: unset; border-radius: 10px; display: none;">
+
+<div class="rc-loading-overlay-wrap">
+</div>
+
+<div class="rc-modal-header" style="height:unset;">
+
+<div class="rc-modal-close" style="right: 10px; top: 10px;  background-color: black !important; border: 2px solid white; box-shadow: -1px 1px 2px black;">
+<i class="fa fa-times">
+</i>
+</div>
+
+</div>
+
+<div class="rc-modal-content" style="padding-top: 20px;">
+
+<div class="rce-flex" style="font-size: 0px; grid-gap: 20px;">
+
+<div id="rce_exit_popup_modal_7" class="">
+
+<div data-title="image" id="rce_exit_popup_modal_1" class="rce-element rce-image">
+
+<img src="https://app.marketingblocks.ai/upload/exit_img.png" style="width: 100%;" class="">
+
+</div>
+
+</div>
+
+<div>
+
+<div style="padding: 20px;">
+
+<div data-title="text" id="rce_exit_popup_modal_2" class="rce-element rce-text">
+PSST, 
+<font style="text-decoration: underline;">BEFORE YOU
+</font> GO!
+
+</div>
+
+<div data-title="text" id="rce_exit_popup_modal_3" class="rce-element rce-text">
+Your headline goes here..... Your headline goes here..... Your headline
+
+</div>
+
+<div data-title="text" id="rce_exit_popup_modal_4" class="rce-element rce-text">
+Sub headline goes here..... Sub headline goes here..... Sub headline
+
+</div>
+
+<div class="rce-flex rce-text-500" style="margin-top: 40px; grid-gap: 20px;">
+
+<button type="button" data-title="button" id="rce_exit_popup_modal_5" class="rce-element rce-button for-device">
+<span contenteditable="true">yes, please! am interested
+</span>
+</button>
+
+<button type="button" data-title="button" id="rce_exit_popup_modal_6" class="rce-element rce-button for-device">
+<span contenteditable="true">no,i am not interested
+</span>
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+	
+<div class="rce-page-element-border" id="rce_page_element_tool_wrap" data-desktop_style="display:none;">
+    	
+<span class="rce-page-element-tool-item" alt="edit" title="edit" data-title="edit">
+<i class="fa fa-edit">
+</i>
+</span>
+    	
+<span class="rce-page-element-tool-item" alt="remove" title="remove" data-title="remove">
+<i class="fa fa-trash">
+</i>
+</span>
+	
+</div>
+	
+<div class="rce-page-element-border rce-page-border-top" style="display: none;">
+</div>
+	
+<div class="rce-page-element-border rce-page-border-right" style="display: none;">
+</div>
+	
+<div class="rce-page-element-border rce-page-border-left" style="display: none;">
+</div>
+	
+<div class="rce-page-element-border rce-page-border-bottom" style="display: none;">
+</div>
+
+			
+<div data-title="section" id="rce_section_2" class="rce-section" data-desktop_bg_img="none" data-desktop_bg_color="#ffffff" data-mobile_bg_color="#ffffff" data-mobile_bg_img="none" data-width_unit="px" data-border_radius_unit="px">	
+<div class="" id="rce_section_2_5">		
+<div class="" id="rce_section_2_7">						
+<div data-title="link_item" id="rce_section_2_2_1" class="rce-icon-title-ele rce-element rce-menu-item rce-grid-gap-10">                
+<div class="rce-icon-ele rce-show-icon rce-menu-item-icon">
+<i class="material-icons">email
+</i>
+</div>                
+<div class="rce-show-title rce-title-ele rce-menu-item-text"><a href=“mailto:email@gmail.com” style="text-decoration: none; color: white;">email@gmail.com</a>
+</div>            
+</div>            
+<div data-title="link_item" id="rce_section_2_2_2" class="rce-icon-title-ele rce-element rce-menu-item rce-grid-gap-10" data-width_unit="px" data-border_radius_unit="px">                
+<div class="rce-icon-ele rce-show-icon rce-menu-item-icon">
+<i class="fa fa-phone-square">
+</i>
+</div>                
+<div class="rce-show-title rce-title-ele rce-menu-item-text"><a href=“tel:6500000000” style="text-decoration: none; color: white;">+65 00000000</a>
+</div>            
+</div>		
+</div>		
+<div class="" id="rce_section_2_7">			 
+<div data-title="link_item" id="rce_section_2_4_1" class="rce-icon-title-ele rce-element rce-menu-item rce-grid-gap-10">                    
+<div class="rce-icon-ele rce-show-icon rce-menu-item-icon">
+<i class="fa fa-facebook">
+</i>
+</div>                    
+<div class="rce-hide-title rce-title-ele rce-menu-item-text">Facebook
+</div>                
+</div>                
+<div data-title="link_item" id="rce_section_2_4_2" class="rce-icon-title-ele rce-element rce-menu-item rce-grid-gap-10">                    
+<div class="rce-icon-ele rce-show-icon rce-menu-item-icon">
+<i class="fa fa-twitter">
+</i>
+</div>                    
+<div class="rce-hide-title rce-title-ele rce-menu-item-text">Twitter
+</div>                
+</div>                
+<div data-title="link_item" id="rce_section_2_4_3" class="rce-icon-title-ele rce-element rce-menu-item rce-grid-gap-10">                    
+<div class="rce-icon-ele rce-show-icon rce-menu-item-icon">
+<i class="fa fa-instagram">
+</i>
+</div>                    
+<div class="rce-hide-title rce-title-ele rce-menu-item-text">Instagram
+</div>                
+</div>		
+</div>	
+</div>    
+<div class="row" style="padding:20px 60px;">        
+<div class="col-md-3 col-xs-12">			
+<form id="rce_section_2_2_form" action="" method="get" data-desktop_style="width:100%;">
+                    
+<div class="rce-custom-field">
+</div>
+<div class="rce-flex">		                
+<button type="button" data-title="signup_btn" id="rce_section_2_2" class="rce-element rce-button rce-signup-btn rce-popup-signup-btn for-device" data-type="link" data-link="https://api.whatsapp.com" data-width_unit="px" data-border_radius_unit="px">
+<span contenteditable="true">WhatsApp
+</span>
+</button>		            
+</div>
+                
+</form>        
+</div>        
+<div class="col-md-7 col-xs-12">        	
+<div class="" id="rce_section_2_6">	        		                                                                            
+</div>        
+</div>        
+<div class="col-md-2 col-xs-12">        	
+<div class="" id="rce_section_2_7">	        		
+<form method="post" class="rce-form rce-signup-form" id="rce_section_2_4_form" data-desktop_style="width: 100%; max-width: 500px;margin: 0px auto;display: block;">		            
+<input type="hidden" name="_token" value="WhdFisMscShWpZ3oPrMtLSTO1HeESpQ4ZF94BTN3">		            
+<div class="rce-custom-field" style="display: none;">
+</div>
+<div class="rce-flex">		                
+<button type="button" data-title="signup_btn" id="rce_section_2_4" class="rce-element rce-button rce-signup-btn rce-popup-signup-btn for-device" data-width_unit="px" data-border_radius_unit="px">
+<span contenteditable="true"><a href=“tel:6500000000” style="text-decoration: none; color: white;">Call Now</a>
+</span>
+</button>		            
+</div>                              		        
+</form>        	
+</div>        
+</div>    
+</div>    
+    
+
+				
+<div class="rce-insert-line rce-insert-line-bottom">
+</div>
+			
+</div>
+<div data-title="section" id="rce_section_3" class="rce-section rce-n-ai" data-ai_type="background_img" data-desktop_bg_img="https://images.pexels.com/photos/4846097/pexels-photo-4846097.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" data-desktop_bg_color="#2222b5ba" data-keyword="condominium launch" data-mobile_bg_color="rgba(34, 34, 181, 0.7294117647058823)" data-mobile_bg_img="https://images.pexels.com/photos/4846097/pexels-photo-4846097.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" data-width_unit="px" data-border_radius_unit="px" data-tablet_bg_color="rgba(34, 34, 181, 0.7294117647058823)" data-tablet_bg_img="https://images.pexels.com/photos/4846097/pexels-photo-4846097.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940">    
+<div class="container">        
+<div id="rce_section_3_1" class="">            
+<div class="" style="padding:40px;">                
+<div data-title="text" id="rce_section_3_1_1" class="rce-element rce-text rce-n-ai" data-ai_type="Headline">Discover the Latest Real Estate Properties in Singapore   Now Available!
+</div>                
+<div data-title="text" id="rce_section_3_1_2" class="rce-element rce-text rce-n-ai" data-ai_type="Sub Headline">Explore Prime Real Estate Opportunities in Singapore   New Launch Now Available!
+</div>                
+<form method="post" class="rce-form rce-signup-form" id="rce_section_3_1_4" data-desktop_style="text-align: left; width:100%; margin-top: 40px;">                    
+<input type="hidden" name="_token" value="WhdFisMscShWpZ3oPrMtLSTO1HeESpQ4ZF94BTN3">                    
+<div class="rce-custom-field" style="display: none;">
+</div>
+<div class="rc-flex" style="grid-gap: 40px;">                     
+<button type="button" data-title="signup_btn" id="rce_section_3_1_4_1" class="rce-element rce-button rce-signup-btn rce-popup-signup-btn for-device" data-type="link" data-link="https://forms.gle/k9RJpcNunpiZJyaj6" data-width_unit="px" data-border_radius_unit="px">
+<span contenteditable="true">Contact Us
+</span>
+</button>                    
+</div>                
+</form>            
+</div>         
+</div>         
+<div class="row">             
+<div class="col-md-12">                
+<div class="rce-grid-3 rce-grid rce-n-ai" data-ai_type="Website Benefits Bullets - first" id="rce_section_3_3">                    
+<div>                        
+<div data-title="image" id="rce_section_3_3_1" class="rce-element rce-image rce-n-ai" data-ai_type="image" data-keyword="condominium launch" data-image_type="img">                            
+<div class="rce-image-inner" style="overflow: hidden; background-image: url(&quot;https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940&quot;); background-position: center top; border: 15px solid white; box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 30px;">                                
+<img src="https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" style="width: 100%;">                            
+</div>                        
+</div>                        
+<div id="rce_section_3_3_2" data-title="block" class="rce-block" data-desktop_style=" padding: 10px 0px;">                            
+<div data-title="text" id="rce_section_3_3_2_1" class="rce-element rce-text rce-benefit-1"> Get access to the latest real estate properties in Singapore
+</div>                        
+</div>                    
+</div>                    
+<div>                        
+<div data-title="image" id="rce_section_3_4_1" class="rce-element rce-image rce-n-ai" data-ai_type="image" data-keyword="condominium launch" data-image_type="img">                            
+<div class="rce-image-inner" style="overflow: hidden; background-image: url(&quot;https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940&quot;); background-position: center top; border: 15px solid white; box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 30px;">                                
+<img src="https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" style="width: 100%;">                            
+</div>                        
+</div>                        
+<div id="rce_section_3_4_2" data-title="block" class="rce-block" data-desktop_style="padding: 10px 0px;">                            
+<div data-title="text" id="rce_section_3_4_2_1" class="rce-element rce-text rce-benefit-2"> Explore a wide range of options to suit your needs
+</div>                        
+</div>                    
+</div>                    
+<div>                        
+<div data-title="image" id="rce_section_3_5_1" class="rce-element rce-image rce-n-ai" data-ai_type="image" data-keyword="condominium launch" data-image_type="img">                            
+<div class="rce-image-inner" style="overflow: hidden; background-image: url(&quot;https://images.pexels.com/photos/298842/pexels-photo-298842.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940&quot;); background-position: center top; border: 15px solid white; box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 30px;">                                
+<img src="https://images.pexels.com/photos/298842/pexels-photo-298842.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" style="width: 100%;">                            
+</div>                        
+</div>                        
+<div id="rce_section_3_5_2" data-title="block" class="rce-block" data-desktop_style="padding: 10px 00px;">                            
+<div data-title="text" id="rce_section_3_5_2_1" class="rce-element rce-text rce-benefit-3"> Benefit from the highest quality construction standards
+</div>                        
+</div>                    
+</div>                 
+</div>             
+</div>         
+</div>    
+</div>    
+<div class="" style="height:250px; width:100%; background-color:white; margin-top:-200px;">
+</div>    
+    
+
+				
+<div class="rce-insert-line rce-insert-line-bottom">
+</div>
+			
+</div>
+<div data-title="section" id="rce_section_5" class="rce-section" data-desktop_bg_img="none" data-desktop_bg_color="rgba(255, 255, 255, 1)" data-width_unit="px" data-border_radius_unit="px" data-tablet_bg_color="rgba(255, 255, 255, 1)" data-tablet_bg_img="none" data-mobile_bg_color="rgba(255, 255, 255, 1)" data-mobile_bg_img="none">    
+<div class="container">        
+<div class="row">            
+<div class="col-md-6 col-xs-12 rce-d-p-40 rce-flex-start" style="text-align: center;  position: relative;">               
+<div data-title="image" id="rce_section_5_6" class="rce-element rce-image rce-image rce-n-ai" data-ai_type="image" data-keyword="condominium launch" data-image_type="img">                    
+<img src="https://images.pexels.com/photos/6283972/pexels-photo-6283972.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" style="width: 100%; border-radius: 20px;">                
+</div>            
+</div>            
+<div class="col-md-6 col-xs-12 rce-d-p-40" style="display: flex; flex-flow: column; justify-content: center;">                
+<div data-title="text" id="rce_section_5_1" class="rce-element rce-text">                   PERFECT DESIGN                
+</div>                
+<div data-title="text" id="rce_section_5_2" class="rce-element rce-text rce-n-ai" data-ai_type="Company Motto">Real Estate Properties: Your Pathway to a New Home in Singapore
+</div>                
+<div data-title="text" id="rce_section_5_3" class="rce-element rce-text rce-n-ai" data-ai_type="Bio">Whether you’re looking for a space to call home or a place to do business, Real Estate Properties is your go to for all your property needs
+</div>                
+<form method="post" class="rce-form rce-signup-form for-device" id="rce_section_5_3">                        
+<input type="hidden" name="_token" value="WhdFisMscShWpZ3oPrMtLSTO1HeESpQ4ZF94BTN3">                                     
+</form>            
+</div>        
+</div>     
+</div>    
+    
+
+				
+<div class="rce-insert-line rce-insert-line-bottom">
+</div>
+			
+</div>
+<div data-title="section" id="rce_section_6" class="rce-section" data-desktop_bg_img="none" data-desktop_bg_color="#ffffff" data-width_unit="px" data-border_radius_unit="px" data-mobile_bg_color="#ffffff" data-mobile_bg_img="none" data-tablet_bg_color="#ffffff" data-tablet_bg_img="none">    
+<div class="container">        
+<div class="row">            
+<div id="rce_section_6_6" data-title="block" class="rce-block rce-flex rce-testimonial-wrap rce-n-ai" data-ai_type="Compelling Benefits" data-text="Heading: Prime Location
+Text: Our new property is located in one of the most desirable areas in Singapore, giving you easy access to all the essential amenities.
+
+Heading: Luxurious Living
+Text: Our new property offers luxurious living with an array of amenities and facilities to make your stay comfortable and enjoyable.
+
+Heading: Affordable Prices
+Text: We offer competitive prices for our new property, so you can get the best value for your money.
+
+Heading: High Quality Construction
+Text: Our new property is built to the highest standards of quality, ensuring that you live in a safe and secure environment.
+
+Heading: Variety of Floor Plans
+Text: We offer a wide range of floor plans to choose from, so you can find the perfect one that suits your needs and lifestyle.
+
+Heading: Professional Management
+Text: We have a team of professional property managers who are available to answer any questions you may have and provide you with excellent service.
+
+Heading: Easy Accessibility
+Text: Our new property is easily accessible by public transportation, giving you quick and convenient access to the rest of Singapore.
+
+" data-desktop_style="box-shadow: 0px 54px 104px #2222b50a; padding:60px; grid-gap: 40px; ">                
+<div class="rce-testimonial-item rce-text-300">                    
+<div class="rce-testimonial-box" style="width:100%; margin:0px;">                        
+<div data-title="icon" id="rce_section_6_1_1" class="rce-element rce-icon">                            
+<div class="rce-icon-ele rce-icon-inner">                                
+<svg viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg">                                    
+<path d="M16 20C18.7614 20 21 17.7614 21 15C21 12.2386 18.7614 10 16 10C13.2386 10 11 12.2386 11 15C11 17.7614 13.2386 20 16 20Z" stroke="#2222b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-stroke_color="rgb(34, 34, 181)">
+</path>                                    
+<path d="M28 14.4671C28 22.1562 16.0068 34 16.0068 34C16.0068 34 4 22.0985 4 14.4671C4.0086 12.8036 4.32743 11.1585 4.93792 9.6278C5.54841 8.09706 6.43834 6.71128 7.55586 5.55119C8.67337 4.39111 9.99612 3.47993 11.447 2.87076C12.8979 2.26159 14.4479 1.9666 16.0068 2.003C17.5645 1.96854 19.113 2.26496 20.5624 2.875C22.0117 3.48505 23.3328 4.39654 24.4489 5.55643C25.565 6.71632 26.4537 8.10144 27.0633 9.63121C27.673 11.161 27.9914 12.8048 28 14.4671V14.4671Z" stroke="#2222b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-stroke_color="rgb(34, 34, 181)">
+</path>                                    
+<path d="M60 60C62.7614 60 65 57.7614 65 55C65 52.2386 62.7614 50 60 50C57.2386 50 55 52.2386 55 55C55 57.7614 57.2386 60 60 60Z" stroke="#2222b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-stroke_color="rgb(34, 34, 181)">
+</path>                                    
+<path d="M72 54.6658C72 62.2767 60 74 60 74C60 74 48 62.2767 48 54.6658C48 51.3066 49.2643 48.085 51.5147 45.7097C53.7652 43.3344 56.8174 42 60 42C63.1826 42 66.2348 43.3344 68.4853 45.7097C70.7357 48.085 72 51.3066 72 54.6658Z" stroke="#2222b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-stroke_color="rgb(34, 34, 181)">
+</path>                                    
+<path d="M34.9497 14.6496C72.0439 2.91978 79.0044 22.6842 41.9102 34.4283L35.9093 36.8631C-5.09477 49.8245 2.0949 72.5536 43.0703 59.5922" stroke="#2222b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5.38 5.38" data-stroke_color="rgb(34, 34, 181)">
+</path>                                
+</svg>                            
+</div>                        
+</div>                        
+<div data-title="text" id="rce_section_6_1_2" class="rce-element rce-text rce-benefits-heading-1">Prime Location
+</div>                        
+<div data-title="text" id="rce_section_6_1_3" class="rce-element rce-text rce-benefits-text-1">Our new property is located in one of the most desirable areas in Singapore, giving you easy access to all the essential amenities.
+</div>                    
+</div>                
+</div>                
+<div class="rce-testimonial-item rce-text-300">                    
+<div class="rce-testimonial-box" style="width:100%; margin:0px;">                        
+<div data-title="icon" id="rce_section_6_2_1" class="rce-element rce-icon">                            
+<div class="rce-icon-ele rce-icon-inner">
+<!--?xml version="1.0" ?-->
+<svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+	.st0{fill:#16ADE1;}
+	.st1{fill:#1B3954;}
+
+</style>
+<g id="Layer_1">
+</g>
+<g id="Layer_2">
+<g>
+<g>
+<g>
+<path class="st1" d="M127.39,115.13c-1.85,0-3.65-0.75-4.95-2.05c-1.31-1.31-2.06-3.11-2.06-4.95c0-0.46,0.05-0.92,0.14-1.37      s0.23-0.89,0.4-1.31c0.18-0.42,0.39-0.83,0.65-1.21c0.25-0.38,0.54-0.74,0.87-1.06c0.32-0.32,0.68-0.62,1.06-0.87      s0.79-0.47,1.21-0.65c0.42-0.17,0.86-0.3,1.31-0.39c0.9-0.19,1.83-0.19,2.73,0c0.45,0.09,0.89,0.22,1.31,0.39      c0.42,0.18,0.83,0.4,1.21,0.65s0.74,0.55,1.06,0.87c0.33,0.32,0.62,0.68,0.87,1.06c0.26,0.38,0.47,0.79,0.65,1.21      c0.17,0.42,0.31,0.86,0.4,1.31s0.13,0.91,0.13,1.37c0,1.84-0.74,3.64-2.05,4.95c-0.32,0.32-0.68,0.61-1.06,0.87      c-0.38,0.25-0.79,0.47-1.21,0.64c-0.42,0.18-0.86,0.31-1.31,0.4C128.3,115.08,127.84,115.13,127.39,115.13z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M445.33,498.5H232.83c-3.87,0-7-3.13-7-7V178.93h-98.45c-3.87,0-7-3.13-7-7v-32.1c0-3.87,3.13-7,7-7      s7,3.13,7,7v25.1h98.45c3.87,0,7,3.13,7,7V484.5h198.49v-82.48c0-3.87,3.13-7,7-7s7,3.13,7,7v89.48      C452.33,495.37,449.19,498.5,445.33,498.5z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M445.33,386.98c-0.46,0-0.92-0.05-1.37-0.14s-0.89-0.22-1.31-0.4c-0.42-0.17-0.83-0.39-1.21-0.64      c-0.38-0.26-0.74-0.55-1.06-0.87c-0.33-0.32-0.62-0.68-0.87-1.07c-0.26-0.38-0.47-0.78-0.65-1.2c-0.17-0.43-0.31-0.87-0.4-1.31      c-0.09-0.45-0.13-0.91-0.13-1.37s0.04-0.92,0.13-1.37c0.09-0.45,0.23-0.89,0.4-1.31c0.18-0.42,0.39-0.83,0.65-1.21      c0.25-0.38,0.54-0.74,0.87-1.06c0.32-0.33,0.68-0.62,1.06-0.87s0.79-0.47,1.21-0.65c0.42-0.17,0.86-0.31,1.31-0.4      c0.9-0.18,1.83-0.18,2.73,0c0.45,0.09,0.89,0.23,1.31,0.4c0.42,0.18,0.83,0.4,1.21,0.65s0.74,0.54,1.06,0.87      c0.33,0.32,0.62,0.68,0.87,1.06c0.26,0.38,0.47,0.79,0.65,1.21c0.17,0.42,0.31,0.86,0.4,1.31c0.09,0.45,0.13,0.91,0.13,1.37      s-0.04,0.92-0.13,1.37c-0.09,0.44-0.23,0.88-0.4,1.31c-0.18,0.42-0.39,0.82-0.65,1.2c-0.25,0.39-0.54,0.75-0.87,1.07      c-0.32,0.32-0.68,0.61-1.06,0.87c-0.38,0.25-0.79,0.47-1.21,0.64c-0.42,0.18-0.86,0.31-1.31,0.4      C446.24,386.93,445.78,386.98,445.33,386.98z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M445.33,360.17c-3.87,0-7-3.13-7-7V27.5H134.38v58.78c0,3.87-3.13,7-7,7s-7-3.13-7-7V20.5      c0-3.87,3.13-7,7-7h317.94c3.87,0,7,3.13,7,7v332.67C452.33,357.04,449.19,360.17,445.33,360.17z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<g>
+<path class="st0" d="M132.01,263.14h-29.62c-3.87,0-7-3.13-7-7v-29.62c0-3.87,3.13-7,7-7h29.62c3.87,0,7,3.13,7,7v29.62       C139.01,260.01,135.88,263.14,132.01,263.14z M109.39,249.14h15.62v-15.62h-15.62V249.14z" data-fill_color="rgb(22, 173, 225)">
+</path>
+</g>
+<g>
+<path class="st0" d="M197.12,263.14H167.5c-3.87,0-7-3.13-7-7v-29.62c0-3.87,3.13-7,7-7h29.62c3.87,0,7,3.13,7,7v29.62       C204.12,260.01,200.98,263.14,197.12,263.14z M174.5,249.14h15.62v-15.62H174.5V249.14z" data-fill_color="rgb(22, 173, 225)">
+</path>
+</g>
+<g>
+<path class="st0" d="M132.01,323.4h-29.62c-3.87,0-7-3.13-7-7v-29.62c0-3.87,3.13-7,7-7h29.62c3.87,0,7,3.13,7,7v29.62       C139.01,320.26,135.88,323.4,132.01,323.4z M109.39,309.4h15.62v-15.62h-15.62V309.4z" data-fill_color="rgb(22, 173, 225)">
+</path>
+</g>
+<g>
+<path class="st0" d="M197.12,323.4H167.5c-3.87,0-7-3.13-7-7v-29.62c0-3.87,3.13-7,7-7h29.62c3.87,0,7,3.13,7,7v29.62       C204.12,320.26,200.98,323.4,197.12,323.4z M174.5,309.4h15.62v-15.62H174.5V309.4z" data-fill_color="rgb(22, 173, 225)">
+</path>
+</g>
+<g>
+<path class="st0" d="M132.01,383.65h-29.62c-3.87,0-7-3.13-7-7v-29.62c0-3.87,3.13-7,7-7h29.62c3.87,0,7,3.13,7,7v29.62       C139.01,380.52,135.88,383.65,132.01,383.65z M109.39,369.65h15.62v-15.62h-15.62V369.65z" data-fill_color="rgb(22, 173, 225)">
+</path>
+</g>
+<g>
+<path class="st0" d="M197.12,383.65H167.5c-3.87,0-7-3.13-7-7v-29.62c0-3.87,3.13-7,7-7h29.62c3.87,0,7,3.13,7,7v29.62       C204.12,380.52,200.98,383.65,197.12,383.65z M174.5,369.65h15.62v-15.62H174.5V369.65z" data-fill_color="rgb(22, 173, 225)">
+</path>
+</g>
+<g>
+<path class="st0" d="M132.01,443.91h-29.62c-3.87,0-7-3.13-7-7v-29.62c0-3.87,3.13-7,7-7h29.62c3.87,0,7,3.13,7,7v29.62       C139.01,440.77,135.88,443.91,132.01,443.91z M109.39,429.91h15.62v-15.62h-15.62V429.91z" data-fill_color="rgb(22, 173, 225)">
+</path>
+</g>
+<g>
+<path class="st0" d="M197.12,443.91H167.5c-3.87,0-7-3.13-7-7v-29.62c0-3.87,3.13-7,7-7h29.62c3.87,0,7,3.13,7,7v29.62       C204.12,440.77,200.98,443.91,197.12,443.91z M174.5,429.91h15.62v-15.62H174.5V429.91z" data-fill_color="rgb(22, 173, 225)">
+</path>
+</g>
+</g>
+<g>
+<g>
+<path class="st1" d="M308.11,328.1h-28.6c-3.87,0-7-3.13-7-7v-28.6c0-3.87,3.13-7,7-7h28.6c3.87,0,7,3.13,7,7v28.6       C315.11,324.97,311.97,328.1,308.11,328.1z M286.51,314.1h14.6v-14.6h-14.6V314.1z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M308.11,393.8h-28.6c-3.87,0-7-3.13-7-7v-28.6c0-3.87,3.13-7,7-7h28.6c3.87,0,7,3.13,7,7v28.6       C315.11,390.67,311.97,393.8,308.11,393.8z M286.51,379.8h14.6v-14.6h-14.6V379.8z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M308.11,459.5h-28.6c-3.87,0-7-3.13-7-7v-28.6c0-3.87,3.13-7,7-7h28.6c3.87,0,7,3.13,7,7v28.6       C315.11,456.36,311.97,459.5,308.11,459.5z M286.51,445.5h14.6v-14.6h-14.6V445.5z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+</g>
+<g>
+<path class="st0" d="M197.85,85.19h-29.53c-3.87,0-7-3.13-7-7V48.66c0-3.87,3.13-7,7-7h29.53c3.87,0,7,3.13,7,7v29.53      C204.85,82.06,201.72,85.19,197.85,85.19z M175.32,71.19h15.53V55.66h-15.53V71.19z" data-fill_color="rgb(22, 173, 225)">
+</path>
+</g>
+<g>
+<path class="st0" d="M268.12,85.19h-29.53c-3.87,0-7-3.13-7-7V48.66c0-3.87,3.13-7,7-7h29.53c3.87,0,7,3.13,7,7v29.53      C275.12,82.06,271.99,85.19,268.12,85.19z M245.59,71.19h15.53V55.66h-15.53V71.19z" data-fill_color="rgb(22, 173, 225)">
+</path>
+</g>
+<g>
+<path class="st0" d="M338.38,85.19h-29.53c-3.87,0-7-3.13-7-7V48.66c0-3.87,3.13-7,7-7h29.53c3.87,0,7,3.13,7,7v29.53      C345.38,82.06,342.25,85.19,338.38,85.19z M315.85,71.19h15.53V55.66h-15.53V71.19z" data-fill_color="rgb(22, 173, 225)">
+</path>
+</g>
+<g>
+<path class="st0" d="M413.28,85.19h-29.53c-3.87,0-7-3.13-7-7V48.66c0-3.87,3.13-7,7-7h29.53c3.87,0,7,3.13,7,7v29.53      C420.28,82.06,417.14,85.19,413.28,85.19z M390.75,71.19h15.53V55.66h-15.53V71.19z" data-fill_color="rgb(22, 173, 225)">
+</path>
+</g>
+<g>
+<path class="st1" d="M197.85,146.83h-29.53c-3.87,0-7-3.13-7-7V110.3c0-3.87,3.13-7,7-7h29.53c3.87,0,7,3.13,7,7v29.53      C204.85,143.7,201.72,146.83,197.85,146.83z M175.32,132.83h15.53V117.3h-15.53V132.83z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M268.12,146.83h-29.53c-3.87,0-7-3.13-7-7V110.3c0-3.87,3.13-7,7-7h29.53c3.87,0,7,3.13,7,7v29.53      C275.12,143.7,271.99,146.83,268.12,146.83z M245.59,132.83h15.53V117.3h-15.53V132.83z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M338.38,146.83h-29.53c-3.87,0-7-3.13-7-7V110.3c0-3.87,3.13-7,7-7h29.53c3.87,0,7,3.13,7,7v29.53      C345.38,143.7,342.25,146.83,338.38,146.83z M315.85,132.83h15.53V117.3h-15.53V132.83z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M413.28,146.83h-29.53c-3.87,0-7-3.13-7-7V110.3c0-3.87,3.13-7,7-7h29.53c3.87,0,7,3.13,7,7v29.53      C420.28,143.7,417.14,146.83,413.28,146.83z M390.75,132.83h15.53V117.3h-15.53V132.83z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M268.11,208.47h-10.94c-3.87,0-7-3.13-7-7s3.13-7,7-7h3.94v-15.54h-4.71c-3.87,0-7-3.13-7-7s3.13-7,7-7      h11.71c3.87,0,7,3.13,7,7v29.54C275.11,205.34,271.98,208.47,268.11,208.47z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M338.38,208.47h-29.53c-3.87,0-7-3.13-7-7v-29.53c0-3.87,3.13-7,7-7h29.53c3.87,0,7,3.13,7,7v29.53      C345.38,205.33,342.25,208.47,338.38,208.47z M315.85,194.47h15.53v-15.53h-15.53V194.47z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M413.28,208.47h-29.53c-3.87,0-7-3.13-7-7v-29.53c0-3.87,3.13-7,7-7h29.53c3.87,0,7,3.13,7,7v29.53      C420.28,205.33,417.14,208.47,413.28,208.47z M390.75,194.47h15.53v-15.53h-15.53V194.47z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M413.28,270.1h-29.53c-3.87,0-7-3.13-7-7v-29.53c0-3.87,3.13-7,7-7h29.53c3.87,0,7,3.13,7,7v29.53      C420.28,266.97,417.14,270.1,413.28,270.1z M390.75,256.1h15.53v-15.53h-15.53V256.1z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M413.28,331.74h-29.53c-3.87,0-7-3.13-7-7v-29.53c0-3.87,3.13-7,7-7h29.53c3.87,0,7,3.13,7,7v29.53      C420.28,328.61,417.14,331.74,413.28,331.74z M390.75,317.74h15.53v-15.53h-15.53V317.74z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M413.28,393.38h-29.53c-3.87,0-7-3.13-7-7v-29.53c0-3.87,3.13-7,7-7h29.53c3.87,0,7,3.13,7,7v29.53      C420.28,390.24,417.14,393.38,413.28,393.38z M390.75,379.38h15.53v-15.53h-15.53V379.38z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M413.28,455.01h-29.53c-3.87,0-7-3.13-7-7v-29.53c0-3.87,3.13-7,7-7h29.53c3.87,0,7,3.13,7,7v29.53      C420.28,451.88,417.14,455.01,413.28,455.01z M390.75,441.01h15.53v-15.53h-15.53V441.01z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st0" d="M354.79,498.5H232.83c-3.87,0-7-3.13-7-7v-238c0-3.87,3.13-7,7-7h121.95c3.87,0,7,3.13,7,7s-3.13,7-7,7      H239.83v224h107.95V283.21c0-3.87,3.13-7,7-7s7,3.13,7,7V491.5C361.79,495.37,358.65,498.5,354.79,498.5z" data-fill_color="rgb(22, 173, 225)">
+</path>
+</g>
+<g>
+<path class="st1" d="M232.83,498.5H66.67c-3.87,0-7-3.13-7-7V171.93c0-3.87,3.13-7,7-7h166.16c3.87,0,7,3.13,7,7V491.5      C239.83,495.37,236.7,498.5,232.83,498.5z M73.67,484.5h152.16V178.93H73.67V484.5z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+</g>
+</g>
+</g>
+</svg>
+</div>                        
+</div>                        
+<div data-title="text" id="rce_section_6_2_2" class="rce-element rce-text rce-benefits-heading-2">Luxurious Living
+</div>                        
+<div data-title="text" id="rce_section_6_2_3" class="rce-element rce-text rce-benefits-text-2">Our new property offers luxurious living with an array of amenities and facilities to make your stay comfortable and enjoyable.
+</div>                    
+</div>                
+</div>                
+<div class="rce-testimonial-item rce-text-300">                    
+<div class="rce-testimonial-box" style="width:100%; margin:0px;">                        
+<div data-title="icon" id="rce_section_6_3_1" class="rce-element rce-icon">                            
+<div class="rce-icon-ele rce-icon-inner">
+<!--?xml version="1.0" ?-->
+<svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+	.st0{fill:#16ADE1;}
+	.st1{fill:#1B3954;}
+
+</style>
+<g id="Layer_1">
+</g>
+<g id="Layer_2">
+<g>
+<g>
+<g>
+<g>
+<path class="st0" d="M459.27,188.47C459.27,188.47,459.26,188.47,459.27,188.47l-276.47-0.4c-3.71-0.01-6.77-2.91-6.98-6.61       c-0.24-4.33-0.09-8.81,0.42-12.98c1.44-11.5,7.05-21.26,15.02-26.11c4.68-2.84,9.71-3.84,14.15-4.73       c4.21-0.84,7.84-1.56,10.42-3.56c3.35-2.58,5.46-7.73,6.93-11.93c0.36-1.03,0.71-2.08,1.06-3.12       c1.72-5.12,3.49-10.42,6.74-15.26c5.36-8.05,13.87-12.17,21.67-10.48c6.34,1.37,10.44,5.83,14.05,9.77       c2.33,2.54,4.54,4.93,6.54,5.57c2.58,0.81,6.14-1.32,8.51-3.79c2.33-2.41,4.31-5.47,6.41-8.71c1.16-1.78,2.35-3.63,3.65-5.43       c7.1-9.84,15.87-15.32,24.69-15.43c0.07,0,0.15,0,0.22,0c8.16,0,17.65,5.01,23.17,12.25c1.23,1.61,2.2,3.2,3.14,4.74       c1.03,1.69,2,3.29,3.12,4.5c2.15,2.34,4.7,4.48,7.59,6.37c5.15,3.36,11.29,5.95,19.89,8.4c4.07,1.16,12.17-0.32,19.32-1.62       c12.46-2.28,25.35-4.63,34.07,1.71c7.96,5.77,9.51,16.49,11,26.86c1.03,7.12,2.19,15.2,5.35,17.52       c1.61,1.18,3.35,2.28,5.19,3.44c3.91,2.46,7.95,5,11.52,8.83c2.99,3.21,5.25,7.27,6.35,11.42c0.56,2.1,0.11,4.35-1.22,6.07       C463.49,187.47,461.44,188.47,459.27,188.47z M189.8,174.08l255.75,0.37c-1.51-1.09-3.15-2.12-4.84-3.18       c-1.97-1.24-4.02-2.52-6.03-4.01c-7.89-5.79-9.43-16.47-10.92-26.8c-1.03-7.13-2.19-15.22-5.36-17.52       c-3.88-2.82-14.67-0.85-23.34,0.73c-9.49,1.73-18.45,3.37-25.67,1.31c-10.01-2.84-17.32-5.97-23.71-10.14       c-3.87-2.53-7.31-5.42-10.24-8.62c-2.04-2.22-3.49-4.59-4.77-6.69c-0.78-1.29-1.52-2.5-2.31-3.53       c-2.85-3.74-8.23-6.75-12.03-6.75c-0.03,0-0.05,0-0.08,0c-4.2,0.05-9.13,3.56-13.5,9.62c-1.1,1.53-2.15,3.15-3.27,4.87       c-2.37,3.65-4.82,7.43-8.06,10.79c-6.74,7.02-15.27,9.81-22.82,7.43c-5.58-1.77-9.33-5.85-12.63-9.45       c-2.42-2.64-4.71-5.12-6.71-5.56c-2-0.43-5.04,1.54-7.07,4.58c-2.21,3.29-3.61,7.48-5.1,11.92c-0.37,1.1-0.74,2.21-1.12,3.3       c-2.11,6.03-5.33,13.57-11.59,18.39c-5.17,4-11.05,5.17-16.23,6.2c-3.63,0.72-7.06,1.41-9.62,2.96       c-4.28,2.61-7.5,8.69-8.4,15.88C189.98,171.47,189.87,172.77,189.8,174.08z" data-fill_color="rgb(22, 173, 225)">
+</path>
+</g>
+<g>
+<path class="st1" d="M213.77,347.98c-2.97,0-5.62-1.88-6.6-4.68l-51.51-146.75c-1.81-5.15-1-10.89,2.15-15.35       c3.15-4.46,8.29-7.13,13.75-7.14l299.29,0.43c0.64,0,1.28,0.09,1.89,0.26c10.42,2.94,19.1,10.78,23.2,20.98       c4.12,10.23,3.25,21.58-2.36,31.14c-1.96,3.33-6.25,4.45-9.58,2.49c-3.33-1.96-4.45-6.25-2.49-9.58       c3.45-5.87,3.96-12.56,1.44-18.83c-2.38-5.92-7.26-10.52-13.15-12.47l-298.22-0.43c-1.27,0-2.01,0.77-2.33,1.22       c-0.32,0.46-0.8,1.4-0.37,2.63l49.86,142.06l47.14-0.11c0,0,0.01,0,0.02,0c3.86,0,6.99,3.12,7,6.98       c0.01,3.87-3.12,7.01-6.98,7.02l-52.12,0.12C213.78,347.98,213.77,347.98,213.77,347.98z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M477.16,251.67c-0.46,0-0.92-0.04-1.37-0.14c-0.45-0.09-0.89-0.22-1.31-0.39       c-0.42-0.18-0.83-0.4-1.21-0.65s-0.74-0.55-1.06-0.87c-0.32-0.32-0.62-0.68-0.87-1.06c-0.25-0.38-0.47-0.79-0.65-1.21       c-0.17-0.42-0.3-0.86-0.39-1.31c-0.1-0.45-0.14-0.91-0.14-1.37c0-0.45,0.04-0.91,0.14-1.37c0.09-0.44,0.22-0.88,0.39-1.3       c0.18-0.43,0.4-0.83,0.65-1.21c0.25-0.39,0.55-0.75,0.87-1.07c0.32-0.32,0.68-0.61,1.06-0.87c0.38-0.25,0.79-0.47,1.21-0.64       c0.42-0.18,0.86-0.31,1.31-0.4c0.9-0.18,1.83-0.18,2.74,0c0.44,0.09,0.88,0.22,1.31,0.4c0.42,0.17,0.82,0.39,1.2,0.64       c0.39,0.26,0.75,0.55,1.07,0.87c0.32,0.32,0.61,0.68,0.87,1.07c0.25,0.38,0.47,0.78,0.64,1.21c0.18,0.42,0.31,0.86,0.4,1.3       c0.09,0.46,0.14,0.92,0.14,1.37c0,0.46-0.05,0.92-0.14,1.37c-0.09,0.45-0.22,0.89-0.4,1.31c-0.17,0.42-0.39,0.83-0.64,1.21       c-0.26,0.38-0.55,0.74-0.87,1.06c-0.32,0.32-0.68,0.62-1.07,0.87c-0.38,0.25-0.78,0.47-1.2,0.65c-0.43,0.17-0.87,0.3-1.31,0.39       C478.08,251.63,477.62,251.67,477.16,251.67z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M319.48,347.75c-1.58,0-3.17-0.53-4.48-1.62c-2.97-2.48-3.37-6.89-0.89-9.86       c11.63-13.95,28.72-21.97,46.88-22.01c17.02-0.03,33.15,6.96,44.75,19.29l8.88-0.02l41.08-69.87c1.96-3.33,6.25-4.45,9.58-2.49       c3.33,1.96,4.45,6.25,2.49,9.58l-43.1,73.32c-1.25,2.13-3.54,3.45-6.02,3.45l-16.02,0.04c0,0-0.01,0-0.02,0       c-2.06,0-4.02-0.91-5.35-2.49c-9.02-10.69-22.18-16.81-36.13-16.81c-0.03,0-0.07,0-0.1,0c-14.01,0.03-27.18,6.22-36.16,16.97       C323.48,346.89,321.49,347.75,319.48,347.75z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st0" d="M360.72,436.73c-21.95,0-42.33-11.85-53.21-30.94c-1.91-3.36-0.74-7.63,2.62-9.55       c3.36-1.92,7.63-0.74,9.55,2.62c8.39,14.72,24.12,23.87,41.04,23.87c26.03,0,47.21-21.18,47.21-47.21       c0-11.08-3.91-21.84-11.02-30.31c-9-10.74-22.2-16.89-36.19-16.89c-14,0-27.2,6.16-36.2,16.89c-7.09,8.47-11,19.24-11,30.31       c0,3.87-3.13,7-7,7s-7-3.13-7-7c0-14.36,5.07-28.32,14.27-39.31c11.68-13.92,28.78-21.9,46.93-21.9       c18.14,0,35.24,7.98,46.92,21.9c9.21,10.99,14.29,24.95,14.29,39.31C421.93,409.27,394.47,436.73,360.72,436.73z" data-fill_color="rgb(22, 173, 225)">
+</path>
+</g>
+<g>
+<path class="st1" d="M178.22,436.73c-0.05,0-0.1,0-0.15,0c-2.92-0.06-5.5-1.93-6.46-4.7L74.92,154.56H20.5c-3.87,0-7-3.13-7-7       s3.13-7,7-7h59.39c2.98,0,5.63,1.88,6.61,4.7l92.13,264.39l14.52-36.7c1.42-3.59,5.49-5.35,9.08-3.93       c3.59,1.42,5.36,5.49,3.93,9.08l-21.45,54.21C183.67,434.98,181.09,436.73,178.22,436.73z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M360.71,382.52H199.67c-3.87,0-7-3.13-7-7s3.13-7,7-7h161.05c3.87,0,7,3.13,7,7       S364.58,382.52,360.71,382.52z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M438.72,236.33h-148.6c-3.87,0-7-3.13-7-7s3.13-7,7-7h148.6c3.87,0,7,3.13,7,7       S442.58,236.33,438.72,236.33z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+<g>
+<path class="st1" d="M243.23,236.33c-0.46,0-0.92-0.05-1.37-0.14c-0.45-0.09-0.89-0.22-1.31-0.4       c-0.43-0.17-0.83-0.39-1.21-0.64c-0.38-0.26-0.74-0.55-1.06-0.87c-0.33-0.32-0.62-0.68-0.87-1.06       c-0.26-0.38-0.47-0.79-0.65-1.21c-0.17-0.43-0.31-0.87-0.4-1.31c-0.09-0.45-0.13-0.91-0.13-1.37c0-0.46,0.04-0.92,0.13-1.37       c0.09-0.44,0.23-0.89,0.4-1.31c0.18-0.42,0.39-0.83,0.65-1.21c0.25-0.38,0.54-0.74,0.87-1.06c0.32-0.32,0.68-0.62,1.06-0.87       s0.78-0.47,1.21-0.65c0.42-0.17,0.86-0.3,1.31-0.39c0.9-0.19,1.83-0.19,2.73,0c0.45,0.09,0.89,0.22,1.31,0.39       c0.43,0.18,0.83,0.4,1.21,0.65c0.38,0.25,0.74,0.55,1.06,0.87c0.33,0.32,0.62,0.68,0.87,1.06c0.26,0.38,0.47,0.79,0.65,1.21       c0.17,0.42,0.31,0.87,0.4,1.31c0.09,0.45,0.13,0.91,0.13,1.37c0,0.46-0.04,0.92-0.13,1.37c-0.09,0.44-0.23,0.88-0.4,1.31       c-0.18,0.42-0.39,0.83-0.65,1.21c-0.25,0.38-0.54,0.74-0.87,1.06c-0.32,0.32-0.68,0.61-1.06,0.87       c-0.38,0.25-0.78,0.47-1.21,0.64c-0.42,0.18-0.86,0.31-1.31,0.4C244.14,236.28,243.68,236.33,243.23,236.33z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+</g>
+<g>
+<path class="st1" d="M360.71,409.47c-18.72,0-33.95-15.23-33.95-33.95s15.23-33.95,33.95-33.95s33.95,15.23,33.95,33.95      S379.43,409.47,360.71,409.47z M360.71,355.57c-11,0-19.95,8.95-19.95,19.95s8.95,19.95,19.95,19.95s19.95-8.95,19.95-19.95      S371.71,355.57,360.71,355.57z" data-fill_color="rgb(27, 57, 84)" style="fill: rgb(34, 34, 181);">
+</path>
+</g>
+</g>
+</g>
+</g>
+</svg>
+</div>                        
+</div>                        
+<div data-title="text" id="rce_section_6_3_2" class="rce-element rce-text rce-benefits-heading-3">Affordable Prices
+</div>                        
+<div data-title="text" id="rce_section_6_3_3" class="rce-element rce-text rce-benefits-text-3">We offer competitive prices for our new property, so you can get the best value for your money.
+</div>                    
+</div>                
+</div>            
+</div>        
+</div>    
+</div>    
+    
+
+				
+<div class="rce-insert-line rce-insert-line-bottom">
+</div>
+			
+</div>
+<div data-title="section" id="rce_section_4" class="rce-section" data-desktop_bg_img="section_bg_4.png" data-desktop_bg_color="#ffffff" data-width_unit="px" data-border_radius_unit="px" data-tablet_bg_color="#ffffff" data-tablet_bg_img="section_bg_4.png" data-mobile_bg_color="#ffffff" data-mobile_bg_img="section_bg_4.png">    
+<div class="rce-row-svg-wrap">        
+<svg viewBox="0 0 1440 410" fill="none" xmlns="http://www.w3.org/2000/svg">        
+<path d="M1724 -101.5C1724 180.994 1287.25 410 748.5 410C209.746 410 -227 180.994 -227 -101.5C-227 -383.994 209.746 -613 748.5 -613C1287.25 -613 1724 -383.994 1724 -101.5Z" fill="#2222b5">
+</path>        
+</svg>    
+</div>    
+<div class="container">            
+<div class="rc-flex">                                            
+</div>            
+<div data-title="text" id="rce_section_4_3" class="rce-element rce-text rce-n-ai" data-ai_type="Website Pre Headline">Discover Your Dream Home: Check Out the New Real Estate Properties in Singapore!
+</div>            
+<div data-title="text" id="rce_section_4_4" class="rce-text-800 rce-element rce-text rce-n-ai" data-ai_type="Headline">Introducing Singapore's Newest Real Estate Properties: Your Dream Home Awaits!
+</div>            
+<div style="max-width: 600px; margin: 0px auto;">                
+<div data-title="video" class="rce-element rce-video rce-n-ai" data-ai_type="video" id="rce_section_4_5" data-link="https://player.vimeo.com/external/404014877.sd.mp4?s=d6a4545dba8b43c84df87ff615782f26bca1ec05&amp;profile_id=165&amp;oauth2_token_id=57447761" data-keyword="condominium launch, new condo">                    
+<iframe src="https://player.vimeo.com/external/404014877.sd.mp4?s=d6a4545dba8b43c84df87ff615782f26bca1ec05&amp;profile_id=165&amp;oauth2_token_id=57447761" data-src="https://vimeo.com/781805214" frameborder="0" allowfullscreen="" data-origwidth="" data-origheight="" style="width: 100%; height: 100%; pointer-events: auto;">
+</iframe>                    
+<div class="rce-video-wrap">
+</div>                
+</div>            
+</div>            
+<form method="post" class="rce-form rce-signup-form" id="rce_section_4_6_form" data-desktop_style="margin-top: 30px;max-width: 500px;margin: 0px auto;display: block; margin-top: 30px;">                
+<input type="hidden" name="_token" value="WhdFisMscShWpZ3oPrMtLSTO1HeESpQ4ZF94BTN3">                
+<div class="rce-custom-field" style="display: none;">
+</div>                                          
+</form>                
+</div>    
+    
+
+				
+<div class="rce-insert-line rce-insert-line-bottom">
+</div>
+			
+</div>
+<div data-title="section" id="rce_section_7" class="rce-section" data-desktop_bg_img="none" data-desktop_bg_color="white" data-tablet_bg_color="#ffffff" data-tablet_bg_img="none" data-width_unit="px" data-border_radius_unit="px" data-mobile_bg_color="white" data-mobile_bg_img="none">
+		
+<div class="rce-row" id="rce_section_7_01" data-desktop_style="grid-template-columns: repeat(1, 1fr);">
+        		
+<div class="rce-column rce-element ui-resizable" id="rce_section_7_01_01" data-title="column" data-desktop_bg_img="none" data-desktop_bg_color="#ffffff" data-tablet_bg_color="#ffffff" data-tablet_bg_img="none">
+        			
+        			
+<div class="rce-element-resize-handle ui-resizable-handle ui-resizable-e">
+</div>
+            		
+<div class="rce-element-resize-handle ui-resizable-handle ui-resizable-w">
+</div>
+        		
+                    
+<div class="rce-flex" style="width:100%;">
+                        
+<div data-title="embed" class="rce-element rce-embed" id="rce_section_7_01_01_01" data-width_unit="px" data-border_radius_unit="px">
+                            
+<div class="rce-embed-inner">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQE2BZMukdfZai8rO8L_G2we2lorxVUu0h04ATNEnoaz9xkg/viewform?embedded=true" width="640" height="946" frameborder="0" marginheight="0" marginwidth="0" style="pointer-events: auto;">Loading…
+</iframe>
+<div class="rce-video-wrap">
+</div>
+</div>
+                        
+</div>
+                    
+</div>
+                
+</div>
+        	
+</div>    
+				
+<div class="rce-insert-line rce-insert-line-bottom">
+</div>
+			
+</div>
+<div data-title="section" id="rce_section_8" class="rce-section rce-n-ai" data-ai_type="background_img" data-desktop_bg_img="https://images.pexels.com/photos/867092/pexels-photo-867092.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" data-desktop_bg_color="#2222b566" data-keyword="condominium launch" data-mobile_bg_color="rgba(34, 34, 181, 0.4)" data-mobile_bg_img="https://images.pexels.com/photos/867092/pexels-photo-867092.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" data-width_unit="px" data-border_radius_unit="px" data-tablet_bg_color="rgba(34, 34, 181, 0.4)" data-tablet_bg_img="https://images.pexels.com/photos/867092/pexels-photo-867092.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940">    
+<div class="container">        
+<div class="row">             
+<div class="col-md-12" style="position:relative; padding-bottom: 40px;">                
+<div id="rce_section_8_1" data-title="block" class="rce-block">                    
+<div data-title="text" id="rce_section_8_1_1" class="rce-element rce-text">                        Frequently Asked Questions                    
+</div>                    
+<div data-title="text" id="rce_section_8_1_2" class="rce-element rce-text">                        What most of our customers asked                    
+</div>                    
+<div id="rce_section_8_2" class="rce-accordion-wrap">                        
+<div class="rce-element rce-accordion-item rce-accordion-item-active" id="rce_section_8_2_1" data-title="accordion item">                            
+<div class="rce-accordion-title">                                
+<div style="width: 100%; font-size: 18px; text-align:left; font-family: 'Poppins'; color: #2F2F2F;">Why buy property in Singapore?
+</div>                            
+</div>                            
+<div class="rce-accordion-content">                                
+<div style="font-size: 18px; text-align:left; font-family: 'Poppins'; color: #2F2F2F;">We offer a great opportunity to invest in a brand new property in Singapore with the best amenities and features. Invest in a property today and start building your wealth. Contact us now!
+</div>                            
+</div>                        
+</div>                        
+<div class="rce-element rce-accordion-item" id="rce_section_8_2_3" data-title="accordion item">                            
+<div class="rce-accordion-title">                                
+<div style="width: 100%; font-size: 18px; text-align:left; font-family: 'Poppins'; color: #2F2F2F;">What factors affect the property valuation?
+</div>                            
+</div>                            
+<div class="rce-accordion-content">                                
+<div style="font-size: 18px; text-align:left; font-family: 'Poppins'; color: #2F2F2F;">Property prices are impacted by several factors, namely; location, amenities, floor area, age &amp; condition of the property &amp; inflation to name a few.  Having said that we may a right value proposition for your needs. Connect with us to learn more.
+</div>                            
+</div>                        
+</div>                        
+<div class="rce-element rce-accordion-item" id="rce_section_8_2_4" data-title="accordion item">                            
+<div class="rce-accordion-title">                                
+<div style="width: 100%; font-size: 18px; text-align:left; font-family: 'Poppins'; color: #2F2F2F;">                                    Should I consider 2 BHK or 3 BHK?                                
+</div>                            
+</div>                            
+<div class="rce-accordion-content">                                
+<div style="font-size: 18px; text-align:left; font-family: 'Poppins'; color: #2F2F2F;">This is a very tricky question for sure but no worries, we have the solution. Choosing the right property is very important for your future and your family. There are many factors that could impact buying decision of your dream house. Let’s connect and discuss the detail.
+</div>                            
+</div>                        
+</div>                    
+</div>                
+</div>             
+</div>                       
+</div>    
+</div>    
+    
+
+				
+<div class="rce-insert-line rce-insert-line-bottom">
+</div>
+			
+</div>
+<div data-title="section" id="rce_section_1" class="rce-section" data-desktop_bg_img="none" data-desktop_bg_color="#2222b505" data-mobile_bg_color="rgba(34, 34, 181, 0.0196078431372549)" data-mobile_bg_img="none" data-width_unit="px" data-border_radius_unit="px" data-tablet_bg_color="rgba(34, 34, 181, 0.0196078431372549)" data-tablet_bg_img="none">    
+<div class="container">        
+<div class="row">            
+<div class="col-md-6">                
+<div class="rce-vertical-box-start" style="grid-gap: 10px; padding:20px 10px;">                    
+<div data-title="text" id="rce_section_1_2" class="rce-element rce-text rce-n-ai both-text-color" data-color="#2222b5" data-ai_type="Headline"> 
+<font color="#2222b5">Explore
+</font> Singapore's Exciting New Real Estate Properties – Now  
+<font color="#2222b5">Available!
+</font>
+</div>                    
+<div data-title="text" id="rce_section_1_3" class="rce-element rce-text rce-n-ai" data-ai_type="Sub Headline">Explore Singapore's Newest Real Estate Properties Today!
+</div>                                         
+<form method="post" class="rce-form rce-signup-form for-device" id="rce_section_1_1_4">                        
+<input type="hidden" name="_token" value="WhdFisMscShWpZ3oPrMtLSTO1HeESpQ4ZF94BTN3">                         
+<button type="button" data-title="signup_btn" id="rce_section_1_1_4_1" class="rce-element rce-button rce-signup-btn rce-popup-signup-btn for-device" data-type="link" data-link="https://forms.gle/k9RJpcNunpiZJyaj6" data-width_unit="px" data-border_radius_unit="px">
+<span contenteditable="true">Get Started
+</span>
+</button>                    
+</form>                
+</div>              
+</div>            
+<div class="col-md-6">                
+<div class="rce-flex" style="width:100%; height: 100%;">                    
+<div style="position: relative;">                        
+<div style="position: absolute; left: 10%; top: -20%; right:10%; bottom: -10%; ">                            
+<svg width="100%" height="100%" viewBox="0 0 464 498" fill="none" xmlns="http://www.w3.org/2000/svg">                            
+<path d="M23.7255 28.9504C24.6376 11.6471 39.9769 -1.28791 57.1857 0.734667L437.502 45.4336C452.612 47.2095 464 60.0146 464 75.2285V468C464 484.569 450.569 498 434 498H30.6231C13.4341 498 -0.240175 483.586 0.664669 466.421L23.7255 28.9504Z" fill="#2222b5" fill-opacity="0.1">
+</path>                            
+</svg>                        
+</div>                        
+<div data-title="image" id="rce_section_1_3_1" class="rce-element rce-image rce-n-ai" data-ai_type="image" style="" data-keyword="condominium launch" data-image_type="img">                            
+<img src="https://images.pexels.com/photos/1561806/pexels-photo-1561806.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" style="width: 100%; border-radius: 10px;">                        
+</div>                    
+</div>                
+</div>            
+</div>         
+</div>    
+</div>    
+    
+
+				
+<div class="rce-insert-line rce-insert-line-bottom">
+</div>
+			
+</div>
+<div data-title="section" id="rce_section_11" class="rce-section" data-desktop_bg_img="none" data-desktop_bg_color="white" data-tablet_bg_color="white" data-tablet_bg_img="none" data-width_unit="px" data-border_radius_unit="px">
+		
+<div class="rce-row" id="rce_section_11_01" data-desktop_style="grid-template-columns: repeat(1, 1fr);">
+        		
+<div class="rce-column rce-element ui-resizable" id="rce_section_11_01_01" data-title="column" data-desktop_bg_img="none" data-desktop_bg_color="#2222b5" data-tablet_bg_color="#2222b5" data-tablet_bg_img="none" data-width_unit="px" data-border_radius_unit="px">
+        			
+        			
+<div class="rce-element-resize-handle ui-resizable-handle ui-resizable-e">
+</div>
+            		
+<div class="rce-element-resize-handle ui-resizable-handle ui-resizable-w">
+</div>
+        		
+                    
+<div data-title="text" id="rce_section_10_2" class="rce-element rce-text rce-n-ai" data-ai_type="Sub Headline">
+<span style="font-weight: 400;">Disclaimer
+</span>
+</div>
+<div class="rce-flex" style="width:100%;">
+                        
+<div data-title="text" id="rce_section_11_01_01_01" class="rce-element rce-text">Whilst every care has been taken in the preparation of this website with its content and any material attached, the respective Developers and its respective agents and the owner of this website shall not be held responsible for any inaccuracy and omission therein. All visual representations in this website including architectural models, drawings, illustrations, photographs, renderings and other graphic representations portray artist’s impressions only and not to be relied upon as statements or representation of facts.
+<div>All property specifications such as floor area are approximate measurements only. The materials and finishings to be used are subject to changes and availability. All information and specifications are current at the time of publication and are subject to change as may be required and do not form part of an offer or contract. The Sales Purchase Agreement shall form the entire agreement between the developer and the purchaser, and shall in no way be modified by any statements or representations whether contained in this website or given by the developer’s agents or otherwise.
+</div>
+<div>
+<br>
+</div>
+<div>
+<b>Personal Data Protection Act
+</b>
+</div>
+<div>By leaving your contact details in this website, you consent to receive SMS, phone calls and/or email messages relating to properties for sale, notwithstanding that the contact details provided has been or will be registered under the Do-Not-Call Registry pursuant to the Personal Data Protection Act. The information you have provided will solely be used for responding to your enquiries or sending property related marketing information to you. We will not disclose the details you have provided to any third parties.
+</div>
+<div>
+</div>
+</div>
+                    
+</div>
+                
+</div>
+        	
+</div>    
+				
+<div class="rce-insert-line rce-insert-line-bottom">
+</div>
+			
+</div>
+<div data-title="section" id="rce_section_9" class="rce-section" data-desktop_bg_img="none" data-desktop_bg_color="#ffffff">	
+<div class="" id="rce_section_9_5">		
+<div class="" id="rce_section_9_7">						
+<div data-title="link_item" id="rce_section_9_2_1" class="rce-icon-title-ele rce-element rce-menu-item rce-grid-gap-10">                
+<div class="rce-icon-ele rce-show-icon rce-menu-item-icon">
+<i class="material-icons">email
+</i>
+</div>                
+<div class="rce-show-title rce-title-ele rce-menu-item-text"><a href=“mailto:email@gmail.com” style="text-decoration: none; color: white;">email@gmail.com</a>
+</div>            
+</div>            
+<div data-title="link_item" id="rce_section_9_2_2" class="rce-icon-title-ele rce-element rce-menu-item rce-grid-gap-10">                
+<div class="rce-icon-ele rce-show-icon rce-menu-item-icon">
+<i class="fa fa-phone-square">
+</i>
+</div>                
+<div class="rce-show-title rce-title-ele rce-menu-item-text"><a href=“tel:6500000000” style="text-decoration: none; color: white;">+65 00000000</a>
+</div>            
+</div>		
+</div>		
+<div class="" id="rce_section_9_7">			 
+<div data-title="link_item" id="rce_section_9_4_1" class="rce-icon-title-ele rce-element rce-menu-item rce-grid-gap-10">                    
+<div class="rce-icon-ele rce-show-icon rce-menu-item-icon">
+<i class="fa fa-facebook">
+</i>
+</div>                    
+<div class="rce-hide-title rce-title-ele rce-menu-item-text">Facebook
+</div>                
+</div>                
+<div data-title="link_item" id="rce_section_9_4_2" class="rce-icon-title-ele rce-element rce-menu-item rce-grid-gap-10">                    
+<div class="rce-icon-ele rce-show-icon rce-menu-item-icon">
+<i class="fa fa-twitter">
+</i>
+</div>                    
+<div class="rce-hide-title rce-title-ele rce-menu-item-text">Twitter
+</div>                
+</div>                
+<div data-title="link_item" id="rce_section_9_4_3" class="rce-icon-title-ele rce-element rce-menu-item rce-grid-gap-10">                    
+<div class="rce-icon-ele rce-show-icon rce-menu-item-icon">
+<i class="fa fa-instagram">
+</i>
+</div>                    
+<div class="rce-hide-title rce-title-ele rce-menu-item-text">Instagram
+</div>                
+</div>		
+</div>	
+</div>    
+<div class="row" style="padding:20px 60px;">        
+<div class="col-md-3 col-xs-12">			
+<form id="rce_section_9_2_form" action="" method="get" data-desktop_style="width:100%;">
+                    
+<div class="rce-custom-field">
+</div>
+<div class="rce-flex">		                
+<button type="button" data-title="signup_btn" id="rce_section_9_2" class="rce-element rce-button rce-signup-btn rce-popup-signup-btn for-device" data-type="link" data-link="https://api.whatsapp.com" data-width_unit="px" data-border_radius_unit="px">
+<span contenteditable="true">WhatsApp
+</span>
+</button>		            
+</div>
+                
+</form>        
+</div>        
+<div class="col-md-7 col-xs-12">        	
+<div class="" id="rce_section_9_6">	        		                                                                            
+</div>        
+</div>        
+<div class="col-md-2 col-xs-12">        	
+<div class="" id="rce_section_9_7">	        		
+<form method="post" class="rce-form rce-signup-form" id="rce_section_9_4_form" data-desktop_style="width: 100%; max-width: 500px;margin: 0px auto;display: block;">		            
+<input type="hidden" name="_token" value="WhdFisMscShWpZ3oPrMtLSTO1HeESpQ4ZF94BTN3">		            
+<div class="rce-custom-field" style="display: none;">
+</div>
+<div class="rce-flex">		                
+<button type="button" data-title="signup_btn" id="rce_section_9_4" class="rce-element rce-button rce-signup-btn rce-popup-signup-btn for-device" data-type="link" data-link="tel:65000000" data-width_unit="px" data-border_radius_unit="px">
+<span contenteditable="true"><a href=“tel:6500000000” style="text-decoration: none; color: white;">Call Us</a>
+</span>
+</button>		            
+</div>                              		        
+</form>        	
+</div>        
+</div>    
+</div>    
+    
+
+				
+<div class="rce-insert-line rce-insert-line-bottom">
+</div>
+			
+</div>
+<input type="hidden" value="desktop" id="rce_device_name">
+<div class="rce-device-loader" style="display: none; left: 793.333px; width: 428.222px;">
+                        
+<img src="https://app.marketingblocks.ai/image/loader.gif">
+                    
+</div>
+                    
+<style>
+#signup_modal{ position: fixed; bottom: unset; top: calc(50vh - 280px); padding: 60px 80px; display: none;}#rce_signup_ele_popup_title{ font-size: 36px; line-height: 40px; font-weight: bold;}#rce_signup_ele_popup_subtitle{ text-align: center;font-size: 18px; line-height: 26px;margin-top: 20px;}#rce_signup_ele_popup_submit{ width: 100%; height: 50px; background-color: rgb(255, 130, 1); font-size: 26px; font-weight: bold; color: white;}#rce_signup_ele_popup_facebook{ width: 100%; height: 50px; background-color: #3b5998; display:none; margin-bottom:20px; font-size: 26px; font-weight: bold; color: white;}#rce_signup_ele_popup_subtitle_1{ font-size: 14px;margin-bottom: 5px; text-align:center;}#rce_exit_popup_modal{ padding: 0px; position: fixed; font-size: 0px; bottom: unset; border-radius: 10px; display: none;}#rce_exit_popup_modal_7{ display:block;}#rce_exit_popup_modal_1{ width: 300px;}#rce_exit_popup_modal_2{ font-family: Montserrat; color:#0361d2; font-size: 33px;line-height: 40px;margin-top: 24px; font-weight: bold; text-align:center;}#rce_exit_popup_modal_3{ font-family: Montserrat; color:#363d62; font-size: 31px;line-height: 40px;margin-top: 24px; text-align: center;}#rce_exit_popup_modal_4{ font-family: Montserrat; color:#363d62; font-size: 16px;line-height: 24px;margin-top: 24px; text-align: center;}#rce_exit_popup_modal_5{ color: white;background-color: #00daba;width: 100%;text-transform: uppercase;font-size: 16px;height: unset;padding: 10px 20px; border-radius: 10px;}#rce_exit_popup_modal_6{ color: white;background-color: #1495ec;width: 100%;text-transform: uppercase;font-size: 16px;height: unset;padding: 10px 20px;border-radius: 10px;}#rce_page_element_tool_wrap{ display:none;}#rce_section_2{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)); padding: 0px; filter: unset;}#rce_section_2_5{ background-color:#2222b5; padding:20px 40px; display:grid; grid-template-columns:1fr 1fr;}#rce_section_2_7{ height: 100%; grid-gap: 40px; display:flex; align-items:center; justify-content: flex-start;}#rce_section_2_2_1{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);}#rce_section_2_2_2{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);}#rce_section_2_7{ height: 100%; grid-gap: 40px; display:flex; align-items:center; justify-content: flex-end;}#rce_section_2_4_1{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);}#rce_section_2_4_2{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);}#rce_section_2_4_3{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);}#rce_section_2_2_form{ width:100%;}#rce_section_2_2{ color: rgb(255, 255, 255); background-color: rgba(36, 181, 34, 0.8); width: 200px; min-height: 50px; border: 1px solid rgba(34, 181, 64, 0.8); font-size: 18px; border-radius: 50px; fill: rgb(0, 0, 0); padding: 0px;}#rce_section_2_6{ display: flex; align-items: center; justify-content: flex-end; height: 100%; grid-gap:40px;}#rce_section_2_7{ display: flex; align-items: center; justify-content: flex-end; height: 100%;}#rce_section_2_4_form{ width: 100%; max-width: 500px;margin: 0px auto;display: block;}#rce_section_2_4{ color: rgb(255, 255, 255); background-color: rgba(34, 34, 181, 0.8); width: 200px; min-height: 50px; border: 1px solid rgba(34, 34, 181, 0.8); font-size: 18px; border-radius: 50px; fill: rgb(0, 0, 0); margin: 0px;}#rce_section_3{ background-image: linear-gradient(rgba(34, 34, 181, 0.73), rgba(34, 34, 181, 0.73)), url("https://images.pexels.com/photos/4846097/pexels-photo-4846097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); padding: 30px 0px 0px; filter: unset;}#rce_section_3_1{ margin: 0px auto;}#rce_section_3_1_1{ font-size: 50px; color: white; font-family: 'Poppins'; width: auto; text-align:center;}#rce_section_3_1_2{ font-size: 20px; line-height: 30px;text-align:left; font-family: 'Poppins'; color: white;  text-align: center;}#rce_section_3_1_4{ text-align: left; width:100%; margin-top: 40px;}#rce_section_3_1_4_1{ background-color: rgb(252, 116, 118); border-color: rgb(252, 116, 118); border-radius: 0px; box-shadow: rgb(232, 74, 76) 2px 2px 0px 0px; background-image: unset; color: rgb(255, 255, 255); width: 200px; height: 48.2222px; fill: rgb(0, 0, 0); font-size: 18px;}#rce_section_3_3_1{ width: 100%;}#rce_section_3_3_2{  padding: 10px 0px;}#rce_section_3_3_2_1{ font-size: 18px; line-height: 30px; text-align:left; font-family: 'Poppins'; color:#2F2F2F; margin-bottom: 10px; font-weight: 500;}#rce_section_3_4_1{ width: 100%;}#rce_section_3_4_2{ padding: 10px 0px;}#rce_section_3_4_2_1{ font-size: 18px; line-height: 30px; text-align:left; font-family: 'Poppins'; color:#2F2F2F; margin-bottom: 10px; font-weight: 500;}#rce_section_3_5_1{ width: 100%;}#rce_section_3_5_2{ padding: 10px 00px;}#rce_section_3_5_2_1{ font-size: 18px; line-height: 30px; text-align:left; font-family: 'Poppins'; color:#2F2F2F; margin-bottom: 10px; font-weight: 500;}#rce_section_5{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)); filter: unset; padding-top: 30px;}#rce_section_5_6{ width:  100%;}#rce_section_5_1{ color:#8F8F8F; font-size: 18px; line-height: 24px; margin-bottom: 30px; font-family:'Poppins'; text-transform: uppercase;}#rce_section_5_2{ color:#1C1C1C; font-size: 42px; line-height: 52px; margin-bottom: 20px; font-family:'Poppins'; text-transform: capitalize; font-weight: bold; }#rce_section_5_3{ color:#4D4D4D; font-size: 18px; line-height: 24px; font-family:'Poppins';}#rce_section_5_3{ text-align: left; margin-top:40px;}#rce_section_6{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)); padding: 50px 0px 100px; filter: unset;}#rce_section_6_6{ box-shadow: 0px 54px 104px #2222b50a; padding:60px; grid-gap: 40px; }#rce_section_6_1_1{ width:76px; height: 76px; font-size: 76px; color: #2222b5;}#rce_section_6_1_2{ font-size: 20px; margin-top: 20px; text-align: left; font-family: Poppins; color: #05060A; font-weight: 600;}#rce_section_6_1_3{ font-size: 16px; text-align: left; color: #05060A; font-family: Poppins; margin-top:10px;}#rce_section_6_2_1{ width:76px; height: 76px; font-size: 76px; color: #2222b5;}#rce_section_6_2_2{ font-size: 20px; margin-top: 20px; text-align: left; font-family: Poppins; color: #05060A; font-weight: 600;}#rce_section_6_2_3{ font-size: 16px; text-align: left; color: #05060A; font-family: Poppins; margin-top:10px;}#rce_section_6_3_1{ width: 76px; height: 76px; font-size: 76px; color: rgb(34, 34, 181);}#rce_section_6_3_2{ font-size: 20px; margin-top: 20px; text-align: left; font-family: Poppins; color: #05060A; font-weight: 600;}#rce_section_6_3_3{ font-size: 16px; text-align: left; color: #05060A; font-family: Poppins; margin-top:10px;}#rce_section_4{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url("https://app.marketingblocks.ai/upload/section_bg_4.png"); filter: unset; padding-top: 30px;}#rce_section_4_3{ color:white; font-size: 18px; font-family: 'Poppins'; text-align: center; margin-top: 30px; }#rce_section_4_4{ color: white; font-size: 38px; font-family: 'Poppins'; text-align: center; margin-top: 30px; letter-spacing: 0px; line-height: 46px; margin-bottom: 30px; font-weight:bold; text-transform:capitalize;}#rce_section_4_5{ width: 100%; border:1px solid white; box-shadow: 0px -1px 0px 0px #3e3e40;}#rce_section_4_6_form{ margin-top: 30px;max-width: 500px;margin: 0px auto;display: block; margin-top: 30px;}#rce_section_7{ background-image: linear-gradient(white, white); padding-top: 10px; margin: 0px;}#rce_section_7_01{ grid-template-columns: repeat(1, 1fr);}#rce_section_7_01_01{ background-image:linear-gradient(#ffffff00, #ffffff00);}#rce_section_7_01_01_01{ width: 100%; }#rce_section_8{ background-image: linear-gradient(rgba(34, 34, 181, 0.4), rgba(34, 34, 181, 0.4)), url("https://images.pexels.com/photos/867092/pexels-photo-867092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); padding-bottom: 0px; padding-top: 100px; filter: unset;}#rce_section_8_1{ background-color: #ffffffc7; max-width: 600px; padding: 40px; border-radius:10px;}#rce_section_8_1_1{ font-size: 40px; color: #222222; font-weight: bold; font-family: 'Poppins'; width: 100%; line-height:40px;}#rce_section_8_1_2{ font-size: 25px; line-height: 30px;text-align:left; font-family: 'Poppins'; color: #2F2F2F; margin-top: 20px;}#rce_section_8_2{ margin-top:50px; height: 420px; overflow: hidden auto; padding: 20px 10px;}#rce_section_1{ background-image: linear-gradient(rgba(34, 34, 181, 0.02), rgba(34, 34, 181, 0.02)); padding: 80px 0px; filter: unset;}#rce_section_1_2{ font-size: 48px; line-height: 56px; font-weight: bold; color: #001431; font-family: 'Poppins'; width: auto; text-transform: capitalize;}#rce_section_1_3{ font-size: 18px; line-height: 24px;text-align:left; font-family: 'Poppins'; color: #646E7C; margin:20px 0px;}#rce_section_1_1_4{ text-align: left; width:100%;}#rce_section_1_1_4_1{ background-color: rgba(34, 34, 181, 0.8); color: rgb(255, 255, 255); font-size: 18px; padding: 10px 20px; height: unset; font-family: Poppins; width: 200px; border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);}#rce_section_11{ background-image: linear-gradient(white, white); filter: unset;}#rce_section_11_01{ grid-template-columns: repeat(1, 1fr);}#rce_section_11_01_01{ background-image: linear-gradient(rgb(34, 34, 181), rgb(34, 34, 181));}#rce_section_10_2{ font-size: 34px; line-height: 52px; font-family: Poppins; color: white; text-transform: capitalize; font-weight: bold; text-align: center;}#rce_section_11_01_01_01{ text-align: justify; width: 100%; color: rgb(255, 255, 255);}#rce_section_9{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)); padding: 0px; filter: unset;}#rce_section_9_5{ background-color:#2222b5; padding:20px 40px; display:grid; grid-template-columns:1fr 1fr;}#rce_section_9_7{ height: 100%; grid-gap: 40px; display:flex; align-items:center; justify-content: flex-start;}#rce_section_9_2_1{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);}#rce_section_9_2_2{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);}#rce_section_9_7{ height: 100%; grid-gap: 40px; display:flex; align-items:center; justify-content: flex-end;}#rce_section_9_4_1{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);}#rce_section_9_4_2{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);}#rce_section_9_4_3{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);}#rce_section_9_2_form{ width:100%;}#rce_section_9_2{ color: rgb(255, 255, 255); background-color: rgba(36, 181, 34, 0.8); width: 200px; min-height: 50px; border: 1px solid rgba(34, 181, 64, 0.8); font-size: 16px; border-radius: 50px; fill: rgb(0, 0, 0);}#rce_section_9_6{ display: flex; align-items: center; justify-content: flex-end; height: 100%; grid-gap:40px;}#rce_section_9_7{ display: flex; align-items: center; justify-content: flex-end; height: 100%;}#rce_section_9_4_form{ width: 100%; max-width: 500px;margin: 0px auto;display: block;}#rce_section_9_4{ color: rgb(255, 255, 255); background-color: rgba(34, 34, 181, 0.8); width: 200px; min-height: 50px; border: 1px solid rgba(34, 34, 181, 0.8); font-size: 16px; border-radius: 50px; fill: rgb(0, 0, 0);}@media(max-width: 2124px){ #rce_signup_ele_popup_title{ font-size: 36px; line-height: 40px; font-weight: bold;} }
+@media(max-width: 770px){ #rce_signup_ele_popup_title{ font-size: 36px; line-height: 40px; font-weight: bold;} }
+@media(max-width: 430px){ #rce_signup_ele_popup_title{ font-size: 36px; line-height: 40px; font-weight: bold;} }
+@media(max-width: 2124px){ #rce_signup_ele_popup_subtitle{ text-align: center;font-size: 18px; line-height: 26px;margin-top: 20px;} }
+@media(max-width: 770px){ #rce_signup_ele_popup_subtitle{ text-align: center;font-size: 18px; line-height: 26px;margin-top: 20px;} }
+@media(max-width: 430px){ #rce_signup_ele_popup_subtitle{ text-align: center;font-size: 18px; line-height: 26px;margin-top: 20px;} }
+@media(max-width: 2124px){ #rce_signup_ele_popup_submit{ width: 100%; height: 50px; background-color: rgb(255, 130, 1); font-size: 26px; font-weight: bold; color: white;} }
+@media(max-width: 770px){ #rce_signup_ele_popup_submit{ width: 100%; height: 50px; background-color: rgb(255, 130, 1); font-size: 26px; font-weight: bold; color: white;} }
+@media(max-width: 430px){ #rce_signup_ele_popup_submit{ width: 100%; height: 50px; background-color: rgb(255, 130, 1); font-size: 26px; font-weight: bold; color: white;} }
+@media(max-width: 2124px){ #rce_signup_ele_popup_facebook{ width: 100%; height: 50px; background-color: #3b5998; display:none; margin-bottom:20px; font-size: 26px; font-weight: bold; color: white;} }
+@media(max-width: 770px){ #rce_signup_ele_popup_facebook{ width: 100%; height: 50px; background-color: #3b5998; display:none; margin-bottom:20px; font-size: 26px; font-weight: bold; color: white;} }
+@media(max-width: 430px){ #rce_signup_ele_popup_facebook{ width: 100%; height: 50px; background-color: #3b5998; display:none; margin-bottom:20px; font-size: 26px; font-weight: bold; color: white;} }
+@media(max-width: 2124px){ #rce_signup_ele_popup_subtitle_1{ font-size: 14px;margin-bottom: 5px; text-align:center;} }
+@media(max-width: 770px){ #rce_signup_ele_popup_subtitle_1{ font-size: 14px;margin-bottom: 5px; text-align:center;} }
+@media(max-width: 430px){ #rce_signup_ele_popup_subtitle_1{ font-size: 14px;margin-bottom: 5px; text-align:center;} }
+@media(max-width: 2124px){ #rce_exit_popup_modal_7{ display:block;} }
+@media(max-width: 770px){ #rce_exit_popup_modal_7{ display:block;} }
+@media(max-width: 430px){ #rce_exit_popup_modal_7{ display:block;} }
+@media(max-width: 2124px){ #rce_exit_popup_modal_1{ width: 300px;} }
+@media(max-width: 770px){ #rce_exit_popup_modal_1{ width: 300px;} }
+@media(max-width: 430px){ #rce_exit_popup_modal_1{ width: 300px;} }
+@media(max-width: 2124px){ #rce_exit_popup_modal_2{ font-family: Montserrat; color:#0361d2; font-size: 33px;line-height: 40px;margin-top: 24px; font-weight: bold; text-align:center;} }
+@media(max-width: 770px){ #rce_exit_popup_modal_2{ font-family: Montserrat; color:#0361d2; font-size: 33px;line-height: 40px;margin-top: 24px; font-weight: bold; text-align:center;} }
+@media(max-width: 430px){ #rce_exit_popup_modal_2{ font-family: Montserrat; color:#0361d2; font-size: 33px;line-height: 40px;margin-top: 24px; font-weight: bold; text-align:center;} }
+@media(max-width: 2124px){ #rce_exit_popup_modal_3{ font-family: Montserrat; color:#363d62; font-size: 31px;line-height: 40px;margin-top: 24px; text-align: center;} }
+@media(max-width: 770px){ #rce_exit_popup_modal_3{ font-family: Montserrat; color:#363d62; font-size: 31px;line-height: 40px;margin-top: 24px; text-align: center;} }
+@media(max-width: 430px){ #rce_exit_popup_modal_3{ font-family: Montserrat; color:#363d62; font-size: 31px;line-height: 40px;margin-top: 24px; text-align: center;} }
+@media(max-width: 2124px){ #rce_exit_popup_modal_4{ font-family: Montserrat; color:#363d62; font-size: 16px;line-height: 24px;margin-top: 24px; text-align: center;} }
+@media(max-width: 770px){ #rce_exit_popup_modal_4{ font-family: Montserrat; color:#363d62; font-size: 16px;line-height: 24px;margin-top: 24px; text-align: center;} }
+@media(max-width: 430px){ #rce_exit_popup_modal_4{ font-family: Montserrat; color:#363d62; font-size: 16px;line-height: 24px;margin-top: 24px; text-align: center;} }
+@media(max-width: 2124px){ #rce_exit_popup_modal_5{ color: white;background-color: #00daba;width: 100%;text-transform: uppercase;font-size: 16px;height: unset;padding: 10px 20px; border-radius: 10px;} }
+@media(max-width: 770px){ #rce_exit_popup_modal_5{ color: white;background-color: #00daba;width: 100%;text-transform: uppercase;font-size: 16px;height: unset;padding: 10px 20px; border-radius: 10px;} }
+@media(max-width: 430px){ #rce_exit_popup_modal_5{ color: white;background-color: #00daba;width: 100%;text-transform: uppercase;font-size: 16px;height: unset;padding: 10px 20px; border-radius: 10px;} }
+@media(max-width: 2124px){ #rce_exit_popup_modal_6{ color: white;background-color: #1495ec;width: 100%;text-transform: uppercase;font-size: 16px;height: unset;padding: 10px 20px;border-radius: 10px;} }
+@media(max-width: 770px){ #rce_exit_popup_modal_6{ color: white;background-color: #1495ec;width: 100%;text-transform: uppercase;font-size: 16px;height: unset;padding: 10px 20px;border-radius: 10px;} }
+@media(max-width: 430px){ #rce_exit_popup_modal_6{ color: white;background-color: #1495ec;width: 100%;text-transform: uppercase;font-size: 16px;height: unset;padding: 10px 20px;border-radius: 10px;} }
+@media(max-width: 2124px){ #rce_section_2{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)); padding: 0px; filter: unset;} }
+@media(max-width: 770px){ #rce_section_2{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)); padding: 0px; filter: unset;} }
+@media(max-width: 430px){ #rce_section_2{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)); padding: 0px; filter: unset;} }
+@media(max-width: 2124px){ #rce_section_2_5{ background-color:#2222b5; padding:20px 40px; display:grid; grid-template-columns:1fr 1fr;} }
+@media(max-width: 770px){ #rce_section_2_5{ background-color:#2222b5; padding:20px 40px; display:grid; grid-template-columns:1fr 1fr;} }
+@media(max-width: 430px){ #rce_section_2_5{ background-color:#2222b5; padding:20px 40px; display:grid; grid-template-columns:1fr 1fr;} }
+@media(max-width: 2124px){ #rce_section_2_7{ height: 100%; grid-gap: 40px; display:flex; align-items:center; justify-content: flex-start;} }
+@media(max-width: 770px){ #rce_section_2_7{ height: 100%; grid-gap: 40px; display:flex; align-items:center; justify-content: flex-start;} }
+@media(max-width: 430px){ #rce_section_2_7{ height: 100%; grid-gap: 40px; display:flex; align-items:center; justify-content: flex-start;} }
+@media(max-width: 2124px){ #rce_section_2_2_1{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 770px){ #rce_section_2_2_1{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 430px){ #rce_section_2_2_1{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 2124px){ #rce_section_2_2_1:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 770px){ #rce_section_2_2_1:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 430px){ #rce_section_2_2_1:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 2124px){ #rce_section_2_2_2{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 770px){ #rce_section_2_2_2{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 430px){ #rce_section_2_2_2{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0); line-height: 16px; margin: 0px;} }
+@media(max-width: 2124px){ #rce_section_2_2_2:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 770px){ #rce_section_2_2_2:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 430px){ #rce_section_2_2_2:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 2124px){ #rce_section_2_7{ height: 100%; grid-gap: 40px; display:flex; align-items:center; justify-content: flex-end;} }
+@media(max-width: 770px){ #rce_section_2_7{ height: 100%; grid-gap: 40px; display:flex; align-items:center; justify-content: flex-end;} }
+@media(max-width: 430px){ #rce_section_2_7{ height: 100%; grid-gap: 40px; display:flex; align-items:center; justify-content: flex-end;} }
+@media(max-width: 2124px){ #rce_section_2_4_1{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 770px){ #rce_section_2_4_1{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 430px){ #rce_section_2_4_1{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 2124px){ #rce_section_2_4_1:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 770px){ #rce_section_2_4_1:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 430px){ #rce_section_2_4_1:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 2124px){ #rce_section_2_4_2{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 770px){ #rce_section_2_4_2{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 430px){ #rce_section_2_4_2{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 2124px){ #rce_section_2_4_2:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 430px){ #rce_section_2_4_2:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 2124px){ #rce_section_2_4_3{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 770px){ #rce_section_2_4_3{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 430px){ #rce_section_2_4_3{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 2124px){ #rce_section_2_4_3:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 2124px){ #rce_section_2_2{ color: rgb(255, 255, 255); background-color: rgba(36, 181, 34, 0.8); width: 200px; min-height: 50px; border: 1px solid rgba(34, 181, 64, 0.8); font-size: 18px; border-radius: 50px; fill: rgb(0, 0, 0); padding: 0px;} }
+@media(max-width: 770px){ #rce_section_2_2{ color: rgb(255, 255, 255); background-color: rgba(36, 181, 34, 0.8); width: 200px; min-height: 50px; border: 1px solid rgba(34, 181, 64, 0.8); font-size: 16px; border-radius: 50px; fill: rgb(0, 0, 0);} }
+@media(max-width: 430px){ #rce_section_2_2{ color: rgb(255, 255, 255); background-color: rgba(36, 181, 34, 0.8); width: 200px; min-height: 50px; border: 1px solid rgba(34, 181, 64, 0.8); font-size: 16px; border-radius: 50px; fill: rgb(0, 0, 0);} }
+@media(max-width: 2124px){ #rce_section_2_2:hover{ background-color:#1c921c;border-color:rgb(34, 34, 181);color:rgb(255, 255, 255);} }
+@media(max-width: 770px){ #rce_section_2_2:hover{ background-color:#1c921c;border-color:rgb(34, 34, 181);color:rgb(255, 255, 255);} }
+@media(max-width: 430px){ #rce_section_2_2:hover{ background-color:#1c921c;border-color:#1c921c;color:rgb(255, 255, 255);} }
+@media(max-width: 2124px){ #rce_section_2_6{ display: flex; align-items: center; justify-content: flex-end; height: 100%; grid-gap:40px;} }
+@media(max-width: 770px){ #rce_section_2_6{ display: flex; align-items: center; justify-content: flex-end; height: 100%; grid-gap:40px;} }
+@media(max-width: 430px){ #rce_section_2_6{ display: flex; align-items: center; justify-content: flex-end; height: 100%; grid-gap:40px;} }
+@media(max-width: 2124px){ #rce_section_2_7{ display: flex; align-items: center; justify-content: flex-end; height: 100%;} }
+@media(max-width: 770px){ #rce_section_2_7{ display: flex; align-items: center; justify-content: flex-end; height: 100%;} }
+@media(max-width: 430px){ #rce_section_2_7{ display: flex; align-items: center; justify-content: flex-end; height: 100%;} }
+@media(max-width: 2124px){ #rce_section_2_4{ color: rgb(255, 255, 255); background-color: rgba(34, 34, 181, 0.8); width: 200px; min-height: 50px; border: 1px solid rgba(34, 34, 181, 0.8); font-size: 18px; border-radius: 50px; fill: rgb(0, 0, 0); margin: 0px;} }
+@media(max-width: 770px){ #rce_section_2_4{ color: rgb(255, 255, 255); background-color: rgba(34, 34, 181, 0.8); width: 200px; min-height: 50px; border: 1px solid rgba(34, 34, 181, 0.8); font-size: 16px; border-radius: 50px; fill: rgb(0, 0, 0);} }
+@media(max-width: 430px){ #rce_section_2_4{ color: rgb(255, 255, 255); background-color: rgba(34, 34, 181, 0.8); width: 200px; min-height: 50px; border: 1px solid rgba(34, 34, 181, 0.8); font-size: 16px; border-radius: 50px; fill: rgb(0, 0, 0); margin: 10px;} }
+@media(max-width: 2124px){ #rce_section_2_4:hover{ background-color:#4949e9;border-color:rgb(34, 34, 181);color:rgb(255, 255, 255);} }
+@media(max-width: 770px){ #rce_section_2_4:hover{ background-color:#4949e9;border-color:rgb(34, 34, 181);color:rgb(255, 255, 255);} }
+@media(max-width: 430px){ #rce_section_2_4:hover{ background-color:#4949e9;border-color:rgb(34, 34, 181);color:rgb(255, 255, 255);} }
+@media(max-width: 2124px){ #rce_section_3{ background-image: linear-gradient(rgba(34, 34, 181, 0.73), rgba(34, 34, 181, 0.73)), url("https://images.pexels.com/photos/4846097/pexels-photo-4846097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); padding: 30px 0px 0px; filter: unset;} }
+@media(max-width: 770px){ #rce_section_3{ background-image: linear-gradient(rgba(34, 34, 181, 0.73), rgba(34, 34, 181, 0.73)), url("https://images.pexels.com/photos/4846097/pexels-photo-4846097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); padding: 10px 0px 0px; filter: unset;} }
+@media(max-width: 430px){ #rce_section_3{ background-image: linear-gradient(rgba(34, 34, 181, 0.73), rgba(34, 34, 181, 0.73)), url("https://images.pexels.com/photos/4846097/pexels-photo-4846097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); padding: 30px 0px 0px; filter: unset;} }
+@media(max-width: 2124px){ #rce_section_3_1{ margin: 0px auto;} }
+@media(max-width: 770px){ #rce_section_3_1{ margin: 0px auto;} }
+@media(max-width: 430px){ #rce_section_3_1{ margin: 0px auto;} }
+@media(max-width: 2124px){ #undefined{ padding:40px;} }
+@media(max-width: 770px){ #undefined{ padding:40px;} }
+@media(max-width: 430px){ #undefined{ padding:40px;} }
+@media(max-width: 2124px){ #rce_section_3_1_1{ font-size: 50px; color: white; font-family: 'Poppins'; width: auto; text-align:center;} }
+@media(max-width: 770px){ #rce_section_3_1_1{ font-size: 50px; color: white; font-family: 'Poppins'; width: auto; text-align:center;} }
+@media(max-width: 430px){ #rce_section_3_1_1{ font-size: 50px; color: white; font-family: 'Poppins'; width: auto; text-align:center;} }
+@media(max-width: 2124px){ #rce_section_3_1_2{ font-size: 20px; line-height: 30px;text-align:left; font-family: 'Poppins'; color: white;  text-align: center;} }
+@media(max-width: 770px){ #rce_section_3_1_2{ font-size: 20px; line-height: 30px;text-align:left; font-family: 'Poppins'; color: white;  text-align: center;} }
+@media(max-width: 430px){ #rce_section_3_1_2{ font-size: 20px; line-height: 30px;text-align:left; font-family: 'Poppins'; color: white;  text-align: center;} }
+@media(max-width: 2124px){ #rce_section_3_1_4_1{ background-color: rgb(252, 116, 118); border-color: rgb(252, 116, 118); border-radius: 0px; box-shadow: rgb(232, 74, 76) 2px 2px 0px 0px; background-image: unset; color: rgb(255, 255, 255); width: 200px; height: 48.2222px; fill: rgb(0, 0, 0); font-size: 18px;} }
+@media(max-width: 770px){ #rce_section_3_1_4_1{ background-color: rgb(255, 255, 255); color: rgb(34, 34, 181); font-size: 18px; padding: 0px 20px; height: 50px; border-radius: 25px; font-family: Poppins; width: 200px; border: 1px solid rgb(34, 34, 181); fill: rgb(0, 0, 0);} }
+@media(max-width: 430px){ #rce_section_3_1_4_1{ background-color: rgb(255, 255, 255); color: rgb(34, 34, 181); font-size: 18px; padding: 0px 20px; height: 50px; border-radius: 25px; font-family: Poppins; width: 200px; border: 1px solid rgb(34, 34, 181); fill: rgb(0, 0, 0);} }
+@media(max-width: 2124px){ #rce_section_3_1_4_1:hover{ background-color: #e15f61; border-color: #e15f61; border-radius: 0px; box-shadow: 2px 2px 0px 0px #e84a4c; background-image: unset; color: white; } }
+@media(max-width: 770px){ #rce_section_3_1_4_1:hover{ background-color: #e15f61; border-color: #e15f61; border-radius: 0px; box-shadow: 2px 2px 0px 0px #e84a4c; background-image: unset; color: white; } }
+@media(max-width: 2124px){ #rce_section_3_3_1{ width: 100%;} }
+@media(max-width: 770px){ #rce_section_3_3_1{ width: 100%;} }
+@media(max-width: 430px){ #rce_section_3_3_1{ width: 100%;} }
+@media(max-width: 2124px){ #rce_section_3_3_2_1{ font-size: 18px; line-height: 30px; text-align:left; font-family: 'Poppins'; color:#2F2F2F; margin-bottom: 10px; font-weight: 500;} }
+@media(max-width: 770px){ #rce_section_3_3_2_1{ font-size: 18px; line-height: 30px; text-align:left; font-family: 'Poppins'; color:#2F2F2F; margin-bottom: 10px; font-weight: 500;} }
+@media(max-width: 430px){ #rce_section_3_3_2_1{ font-size: 18px; line-height: 30px; text-align:left; font-family: 'Poppins'; color:#2F2F2F; margin-bottom: 10px; font-weight: 500;} }
+@media(max-width: 2124px){ #rce_section_3_4_1{ width: 100%;} }
+@media(max-width: 770px){ #rce_section_3_4_1{ width: 100%;} }
+@media(max-width: 430px){ #rce_section_3_4_1{ width: 100%;} }
+@media(max-width: 2124px){ #rce_section_3_4_2_1{ font-size: 18px; line-height: 30px; text-align:left; font-family: 'Poppins'; color:#2F2F2F; margin-bottom: 10px; font-weight: 500;} }
+@media(max-width: 770px){ #rce_section_3_4_2_1{ font-size: 18px; line-height: 30px; text-align:left; font-family: 'Poppins'; color:#2F2F2F; margin-bottom: 10px; font-weight: 500;} }
+@media(max-width: 430px){ #rce_section_3_4_2_1{ font-size: 18px; line-height: 30px; text-align:left; font-family: 'Poppins'; color:#2F2F2F; margin-bottom: 10px; font-weight: 500;} }
+@media(max-width: 2124px){ #rce_section_3_5_1{ width: 100%;} }
+@media(max-width: 770px){ #rce_section_3_5_1{ width: 100%;} }
+@media(max-width: 430px){ #rce_section_3_5_1{ width: 100%;} }
+@media(max-width: 2124px){ #rce_section_3_5_2_1{ font-size: 18px; line-height: 30px; text-align:left; font-family: 'Poppins'; color:#2F2F2F; margin-bottom: 10px; font-weight: 500;} }
+@media(max-width: 770px){ #rce_section_3_5_2_1{ font-size: 18px; line-height: 30px; text-align:left; font-family: 'Poppins'; color:#2F2F2F; margin-bottom: 10px; font-weight: 500;} }
+@media(max-width: 430px){ #rce_section_3_5_2_1{ font-size: 18px; line-height: 30px; text-align:left; font-family: 'Poppins'; color:#2F2F2F; margin-bottom: 10px; font-weight: 500;} }
+@media(max-width: 2124px){ #undefined{ height:250px; width:100%; background-color:white; margin-top:-200px;} }
+@media(max-width: 770px){ #undefined{ height:250px; width:100%; background-color:white; margin-top:-200px;} }
+@media(max-width: 430px){ #undefined{ height:250px; width:100%; background-color:white; margin-top:-200px;} }
+@media(max-width: 2124px){ #rce_section_5{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)); filter: unset; padding-top: 30px;} }
+@media(max-width: 770px){ #rce_section_5{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)); filter: unset; padding-top: 10px;} }
+@media(max-width: 430px){ #rce_section_5{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)); filter: unset; padding-top: 20px;} }
+@media(max-width: 2124px){ #rce_section_5_6{ width:  100%;} }
+@media(max-width: 770px){ #rce_section_5_6{ width:  100%;} }
+@media(max-width: 430px){ #rce_section_5_6{ width:  100%;} }
+@media(max-width: 2124px){ #rce_section_5_1{ color:#8F8F8F; font-size: 18px; line-height: 24px; margin-bottom: 30px; font-family:'Poppins'; text-transform: uppercase;} }
+@media(max-width: 770px){ #rce_section_5_1{ color:#8F8F8F; font-size: 18px; line-height: 24px; margin-bottom: 30px; font-family:'Poppins'; text-transform: uppercase;} }
+@media(max-width: 430px){ #rce_section_5_1{ color:#8F8F8F; font-size: 18px; line-height: 24px; margin-bottom: 30px; font-family:'Poppins'; text-transform: uppercase;} }
+@media(max-width: 2124px){ #rce_section_5_2{ color:#1C1C1C; font-size: 42px; line-height: 52px; margin-bottom: 20px; font-family:'Poppins'; text-transform: capitalize; font-weight: bold; } }
+@media(max-width: 770px){ #rce_section_5_2{ color:#1C1C1C; font-size: 42px; line-height: 52px; margin-bottom: 20px; font-family:'Poppins'; text-transform: capitalize; font-weight: bold; } }
+@media(max-width: 430px){ #rce_section_5_2{ color:#1C1C1C; font-size: 42px; line-height: 52px; margin-bottom: 20px; font-family:'Poppins'; text-transform: capitalize; font-weight: bold; } }
+@media(max-width: 2124px){ #rce_section_5_3{ color:#4D4D4D; font-size: 18px; line-height: 24px; font-family:'Poppins';} }
+@media(max-width: 770px){ #rce_section_5_3{ color:#4D4D4D; font-size: 18px; line-height: 24px; font-family:'Poppins';} }
+@media(max-width: 430px){ #rce_section_5_3{ color:#4D4D4D; font-size: 18px; line-height: 24px; font-family:'Poppins';} }
+@media(max-width: 2124px){ #rce_section_5_3{ text-align: left; margin-top:40px;} }
+@media(max-width: 770px){ #rce_section_5_3{ text-align: left; margin-top:40px;} }
+@media(max-width: 430px){ #rce_section_5_3{ text-align: left; margin-top:40px;} }
+@media(max-width: 2124px){ #rce_section_6{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)); padding: 50px 0px 100px; filter: unset;} }
+@media(max-width: 770px){ #rce_section_6{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)); padding: 10px 0px 100px; filter: unset;} }
+@media(max-width: 430px){ #rce_section_6{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)); padding: 20px 0px 100px; filter: unset;} }
+@media(max-width: 2124px){ #rce_section_6_1_1{ width:76px; height: 76px; font-size: 76px; color: #2222b5;} }
+@media(max-width: 770px){ #rce_section_6_1_1{ width:76px; height: 76px; font-size: 76px; color: #2222b5;} }
+@media(max-width: 430px){ #rce_section_6_1_1{ width:76px; height: 76px; font-size: 76px; color: #2222b5;} }
+@media(max-width: 2124px){ #rce_section_6_1_2{ font-size: 20px; margin-top: 20px; text-align: left; font-family: Poppins; color: #05060A; font-weight: 600;} }
+@media(max-width: 770px){ #rce_section_6_1_2{ font-size: 20px; margin-top: 20px; text-align: left; font-family: Poppins; color: #05060A; font-weight: 600;} }
+@media(max-width: 430px){ #rce_section_6_1_2{ font-size: 20px; margin-top: 20px; text-align: left; font-family: Poppins; color: #05060A; font-weight: 600;} }
+@media(max-width: 2124px){ #rce_section_6_1_3{ font-size: 16px; text-align: left; color: #05060A; font-family: Poppins; margin-top:10px;} }
+@media(max-width: 770px){ #rce_section_6_1_3{ font-size: 16px; text-align: left; color: #05060A; font-family: Poppins; margin-top:10px;} }
+@media(max-width: 430px){ #rce_section_6_1_3{ font-size: 16px; text-align: left; color: #05060A; font-family: Poppins; margin-top:10px;} }
+@media(max-width: 2124px){ #rce_section_6_2_1{ width:76px; height: 76px; font-size: 76px; color: #2222b5;} }
+@media(max-width: 770px){ #rce_section_6_2_1{ width:76px; height: 76px; font-size: 76px; color: #2222b5;} }
+@media(max-width: 430px){ #rce_section_6_2_1{ width:76px; height: 76px; font-size: 76px; color: #2222b5;} }
+@media(max-width: 2124px){ #rce_section_6_2_2{ font-size: 20px; margin-top: 20px; text-align: left; font-family: Poppins; color: #05060A; font-weight: 600;} }
+@media(max-width: 770px){ #rce_section_6_2_2{ font-size: 20px; margin-top: 20px; text-align: left; font-family: Poppins; color: #05060A; font-weight: 600;} }
+@media(max-width: 430px){ #rce_section_6_2_2{ font-size: 20px; margin-top: 20px; text-align: left; font-family: Poppins; color: #05060A; font-weight: 600;} }
+@media(max-width: 2124px){ #rce_section_6_2_3{ font-size: 16px; text-align: left; color: #05060A; font-family: Poppins; margin-top:10px;} }
+@media(max-width: 770px){ #rce_section_6_2_3{ font-size: 16px; text-align: left; color: #05060A; font-family: Poppins; margin-top:10px;} }
+@media(max-width: 430px){ #rce_section_6_2_3{ font-size: 16px; text-align: left; color: #05060A; font-family: Poppins; margin-top:10px;} }
+@media(max-width: 2124px){ #rce_section_6_3_1{ width: 76px; height: 76px; font-size: 76px; color: rgb(34, 34, 181);} }
+@media(max-width: 770px){ #rce_section_6_3_1{ width: 76px; height: 76px; font-size: 76px; color: rgb(34, 34, 181);} }
+@media(max-width: 430px){ #rce_section_6_3_1{ width: 76px; height: 76px; font-size: 76px; color: rgb(34, 34, 181);} }
+@media(max-width: 2124px){ #rce_section_6_3_2{ font-size: 20px; margin-top: 20px; text-align: left; font-family: Poppins; color: #05060A; font-weight: 600;} }
+@media(max-width: 770px){ #rce_section_6_3_2{ font-size: 20px; margin-top: 20px; text-align: left; font-family: Poppins; color: #05060A; font-weight: 600;} }
+@media(max-width: 430px){ #rce_section_6_3_2{ font-size: 20px; margin-top: 20px; text-align: left; font-family: Poppins; color: #05060A; font-weight: 600;} }
+@media(max-width: 2124px){ #rce_section_6_3_3{ font-size: 16px; text-align: left; color: #05060A; font-family: Poppins; margin-top:10px;} }
+@media(max-width: 770px){ #rce_section_6_3_3{ font-size: 16px; text-align: left; color: #05060A; font-family: Poppins; margin-top:10px;} }
+@media(max-width: 430px){ #rce_section_6_3_3{ font-size: 16px; text-align: left; color: #05060A; font-family: Poppins; margin-top:10px;} }
+@media(max-width: 2124px){ #rce_section_4{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url("https://app.marketingblocks.ai/upload/section_bg_4.png"); filter: unset; padding-top: 30px;} }
+@media(max-width: 770px){ #rce_section_4{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url("https://app.marketingblocks.ai/upload/section_bg_4.png"); filter: unset; padding-top: 10px;} }
+@media(max-width: 430px){ #rce_section_4{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url("https://app.marketingblocks.ai/upload/section_bg_4.png"); filter: unset; padding-top: 0px;} }
+@media(max-width: 2124px){ #rce_section_4_3{ color:white; font-size: 18px; font-family: 'Poppins'; text-align: center; margin-top: 30px; } }
+@media(max-width: 770px){ #rce_section_4_3{ color:white; font-size: 18px; font-family: 'Poppins'; text-align: center; margin-top: 30px; } }
+@media(max-width: 430px){ #rce_section_4_3{ color:white; font-size: 18px; font-family: 'Poppins'; text-align: center; margin-top: 30px; } }
+@media(max-width: 2124px){ #rce_section_4_4{ color: white; font-size: 38px; font-family: 'Poppins'; text-align: center; margin-top: 30px; letter-spacing: 0px; line-height: 46px; margin-bottom: 30px; font-weight:bold; text-transform:capitalize;} }
+@media(max-width: 770px){ #rce_section_4_4{ color: white; font-size: 38px; font-family: 'Poppins'; text-align: center; margin-top: 30px; letter-spacing: 0px; line-height: 46px; margin-bottom: 30px; font-weight:bold; text-transform:capitalize;} }
+@media(max-width: 430px){ #rce_section_4_4{ color: white; font-size: 38px; font-family: 'Poppins'; text-align: center; margin-top: 30px; letter-spacing: 0px; line-height: 46px; margin-bottom: 30px; font-weight:bold; text-transform:capitalize;} }
+@media(max-width: 2124px){ #rce_section_4_5{ width: 100%; border:1px solid white; box-shadow: 0px -1px 0px 0px #3e3e40;} }
+@media(max-width: 770px){ #rce_section_4_5{ width: 100%; border:1px solid white; box-shadow: 0px -1px 0px 0px #3e3e40;} }
+@media(max-width: 430px){ #rce_section_4_5{ width: 100%; border:1px solid white; box-shadow: 0px -1px 0px 0px #3e3e40;} }
+@media(max-width: 2124px){ #rce_section_7{ background-image: linear-gradient(white, white); padding-top: 10px; margin: 0px;} }
+@media(max-width: 770px){ #rce_section_7{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)); padding-top: 10px; margin: 26px;} }
+@media(max-width: 430px){ #rce_section_7{ background-image: linear-gradient(white, white); padding-top: 0px; margin: 0px; filter: unset;} }
+@media(max-width: 2124px){ #rce_section_7_01_01{ background-image:linear-gradient(#ffffff00, #ffffff00);} }
+@media(max-width: 770px){ #rce_section_7_01_01{ background-image:linear-gradient(#ffffff00, #ffffff00);} }
+@media(max-width: 430px){ #rce_section_7_01_01{ background-image:linear-gradient(#ffffff00, #ffffff00);} }
+@media(max-width: 2124px){ #rce_section_7_01_01_01{ width: 100%; } }
+@media(max-width: 770px){ #rce_section_7_01_01_01{ width: 100%; } }
+@media(max-width: 430px){ #rce_section_7_01_01_01{ width: 100%; } }
+@media(max-width: 2124px){ #rce_section_8{ background-image: linear-gradient(rgba(34, 34, 181, 0.4), rgba(34, 34, 181, 0.4)), url("https://images.pexels.com/photos/867092/pexels-photo-867092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); padding-bottom: 0px; padding-top: 100px; filter: unset;} }
+@media(max-width: 770px){ #rce_section_8{ background-image: linear-gradient(rgba(34, 34, 181, 0.4), rgba(34, 34, 181, 0.4)), url("https://images.pexels.com/photos/867092/pexels-photo-867092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); padding-bottom: 0px; padding-top: 50px; filter: unset;} }
+@media(max-width: 430px){ #rce_section_8{ background-image: linear-gradient(rgba(34, 34, 181, 0.4), rgba(34, 34, 181, 0.4)), url("https://images.pexels.com/photos/867092/pexels-photo-867092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); padding-bottom: 0px; padding-top: 50px; filter: unset;} }
+@media(max-width: 2124px){ #rce_section_8_1{ background-color: #ffffffc7; max-width: 600px; padding: 40px; border-radius:10px;} }
+@media(max-width: 770px){ #rce_section_8_1{ background-color: #ffffffc7; max-width: 600px; padding: 40px; border-radius:10px;} }
+@media(max-width: 430px){ #rce_section_8_1{ background-color: #ffffffc7; max-width: 600px; padding: 40px; border-radius:10px;} }
+@media(max-width: 2124px){ #rce_section_8_1_1{ font-size: 40px; color: #222222; font-weight: bold; font-family: 'Poppins'; width: 100%; line-height:40px;} }
+@media(max-width: 770px){ #rce_section_8_1_1{ font-size: 40px; color: #222222; font-weight: bold; font-family: 'Poppins'; width: 100%; line-height:40px;} }
+@media(max-width: 430px){ #rce_section_8_1_1{ font-size: 40px; color: #222222; font-weight: bold; font-family: 'Poppins'; width: 100%; line-height:40px;} }
+@media(max-width: 2124px){ #rce_section_8_1_2{ font-size: 25px; line-height: 30px;text-align:left; font-family: 'Poppins'; color: #2F2F2F; margin-top: 20px;} }
+@media(max-width: 770px){ #rce_section_8_1_2{ font-size: 25px; line-height: 30px;text-align:left; font-family: 'Poppins'; color: #2F2F2F; margin-top: 20px;} }
+@media(max-width: 430px){ #rce_section_8_1_2{ font-size: 25px; line-height: 30px;text-align:left; font-family: 'Poppins'; color: #2F2F2F; margin-top: 20px;} }
+@media(max-width: 2124px){ #rce_section_8_2{ margin-top:50px; height: 420px; overflow: hidden auto; padding: 20px 10px;} }
+@media(max-width: 770px){ #rce_section_8_2{ margin-top:50px; height: 420px; overflow: hidden auto; padding: 20px 10px;} }
+@media(max-width: 430px){ #rce_section_8_2{ margin-top:50px; height: 420px; overflow: hidden auto; padding: 20px 10px;} }
+@media(max-width: 2124px){ #rce_section_1{ background-image: linear-gradient(rgba(34, 34, 181, 0.02), rgba(34, 34, 181, 0.02)); padding: 80px 0px; filter: unset;} }
+@media(max-width: 770px){ #rce_section_1{ background-image: linear-gradient(rgba(34, 34, 181, 0.02), rgba(34, 34, 181, 0.02)); padding: 10px 0px 80px; filter: unset;} }
+@media(max-width: 430px){ #rce_section_1{ background-image: linear-gradient(rgba(34, 34, 181, 0.02), rgba(34, 34, 181, 0.02)); padding: 30px 0px 80px; filter: unset;} }
+@media(max-width: 2124px){ #rce_section_1_2{ font-size: 48px; line-height: 56px; font-weight: bold; color: #001431; font-family: 'Poppins'; width: auto; text-transform: capitalize;} }
+@media(max-width: 770px){ #rce_section_1_2{ font-size: 48px; line-height: 56px; font-weight: bold; color: #001431; font-family: 'Poppins'; width: auto; text-transform: capitalize;} }
+@media(max-width: 430px){ #rce_section_1_2{ font-size: 48px; line-height: 56px; font-weight: bold; color: #001431; font-family: 'Poppins'; width: auto; text-transform: capitalize;} }
+@media(max-width: 2124px){ #rce_section_1_3{ font-size: 18px; line-height: 24px;text-align:left; font-family: 'Poppins'; color: #646E7C; margin:20px 0px;} }
+@media(max-width: 770px){ #rce_section_1_3{ font-size: 18px; line-height: 24px;text-align:left; font-family: 'Poppins'; color: #646E7C; margin:20px 0px;} }
+@media(max-width: 430px){ #rce_section_1_3{ font-size: 18px; line-height: 24px;text-align:left; font-family: 'Poppins'; color: #646E7C; margin:20px 0px;} }
+@media(max-width: 2124px){ #rce_section_1_1_4{ text-align: left; width:100%;} }
+@media(max-width: 770px){ #rce_section_1_1_4{ text-align: left; width:100%;} }
+@media(max-width: 430px){ #rce_section_1_1_4{ text-align: left; width:100%;} }
+@media(max-width: 2124px){ #rce_section_1_1_4_1{ background-color: rgba(34, 34, 181, 0.8); color: rgb(255, 255, 255); font-size: 18px; padding: 10px 20px; height: unset; font-family: Poppins; width: 200px; border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 770px){ #rce_section_1_1_4_1{ background-color: rgba(34, 34, 181, 0.8); color: rgb(255, 255, 255); font-size: 18px; padding: 10px 20px; height: unset; font-family: Poppins; width: 200px; border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 430px){ #rce_section_1_1_4_1{ background-color: rgba(34, 34, 181, 0.8); color: rgb(255, 255, 255); font-size: 18px; padding: 10px 20px; height: unset; font-family: Poppins; width: 200px; border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 2124px){ #rce_section_1_1_4_1:hover{ background-color: #2222b5; color:white;} }
+@media(max-width: 770px){ #rce_section_1_1_4_1:hover{ background-color: #2222b5; color:white;} }
+@media(max-width: 430px){ #rce_section_1_1_4_1:hover{ background-color: #2222b5; color:white;} }
+@media(max-width: 2124px){ #rce_section_11{ background-image: linear-gradient(white, white); filter: unset;} }
+@media(max-width: 770px){ #rce_section_11{ background-image: linear-gradient(white, white); filter: unset; padding-top: 10px;} }
+@media(max-width: 430px){ #rce_section_11{ background-image: linear-gradient(white, white); filter: unset;} }
+@media(max-width: 2124px){ #rce_section_11_01_01{ background-image: linear-gradient(rgb(34, 34, 181), rgb(34, 34, 181));} }
+@media(max-width: 770px){ #rce_section_11_01_01{ background-image: linear-gradient(rgb(34, 34, 181), rgb(34, 34, 181));} }
+@media(max-width: 430px){ #rce_section_11_01_01{ background-image: linear-gradient(rgb(34, 34, 181), rgb(34, 34, 181)); margin: 4px; padding: 7px; border-radius: 0px;} }
+@media(max-width: 2124px){ #rce_section_10_2{ font-size: 34px; line-height: 52px; font-family: Poppins; color: white; text-transform: capitalize; font-weight: bold; text-align: center;} }
+@media(max-width: 770px){ #rce_section_10_2{ font-size: 34px; line-height: 52px; font-family: Poppins; color: white; text-transform: capitalize; font-weight: bold; text-align: center;} }
+@media(max-width: 430px){ #rce_section_10_2{ font-size: 34px; line-height: 52px; font-family: Poppins; color: white; text-transform: capitalize; font-weight: bold; text-align: center;} }
+@media(max-width: 2124px){ #rce_section_11_01_01_01{ text-align: justify; width: 100%; color: rgb(255, 255, 255);} }
+@media(max-width: 770px){ #rce_section_11_01_01_01{ text-align: justify; width: 100%; color: rgb(255, 255, 255);} }
+@media(max-width: 430px){ #rce_section_11_01_01_01{ text-align: justify; width: 100%; color: rgb(255, 255, 255);} }
+@media(max-width: 2124px){ #rce_section_9{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)); padding: 0px; filter: unset;} }
+@media(max-width: 770px){ #rce_section_9{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)); padding: 0px; filter: unset;} }
+@media(max-width: 430px){ #rce_section_9{ background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)); padding: 0px; filter: unset;} }
+@media(max-width: 2124px){ #rce_section_9_5{ background-color:#2222b5; padding:20px 40px; display:grid; grid-template-columns:1fr 1fr;} }
+@media(max-width: 770px){ #rce_section_9_5{ background-color:#2222b5; padding:20px 40px; display:grid; grid-template-columns:1fr 1fr;} }
+@media(max-width: 430px){ #rce_section_9_5{ background-color:#2222b5; padding:20px 40px; display:grid; grid-template-columns:1fr 1fr;} }
+@media(max-width: 2124px){ #rce_section_9_7{ height: 100%; grid-gap: 40px; display:flex; align-items:center; justify-content: flex-start;} }
+@media(max-width: 770px){ #rce_section_9_7{ height: 100%; grid-gap: 40px; display:flex; align-items:center; justify-content: flex-start;} }
+@media(max-width: 430px){ #rce_section_9_7{ height: 100%; grid-gap: 40px; display:flex; align-items:center; justify-content: flex-start;} }
+@media(max-width: 2124px){ #rce_section_9_2_1{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 770px){ #rce_section_9_2_1{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 430px){ #rce_section_9_2_1{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 2124px){ #rce_section_9_2_1:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 430px){ #rce_section_9_2_1:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 2124px){ #rce_section_9_2_2{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 770px){ #rce_section_9_2_2{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 430px){ #rce_section_9_2_2{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 2124px){ #rce_section_9_2_2:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 770px){ #rce_section_9_2_2:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 430px){ #rce_section_9_2_2:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 2124px){ #rce_section_9_7{ height: 100%; grid-gap: 40px; display:flex; align-items:center; justify-content: flex-end;} }
+@media(max-width: 770px){ #rce_section_9_7{ height: 100%; grid-gap: 40px; display:flex; align-items:center; justify-content: flex-end;} }
+@media(max-width: 430px){ #rce_section_9_7{ height: 100%; grid-gap: 40px; display:flex; align-items:center; justify-content: flex-end;} }
+@media(max-width: 2124px){ #rce_section_9_4_1{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 770px){ #rce_section_9_4_1{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 430px){ #rce_section_9_4_1{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 2124px){ #rce_section_9_4_1:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 430px){ #rce_section_9_4_1:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 2124px){ #rce_section_9_4_2{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 770px){ #rce_section_9_4_2{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 430px){ #rce_section_9_4_2{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 2124px){ #rce_section_9_4_2:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 770px){ #rce_section_9_4_2:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 430px){ #rce_section_9_4_2:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 2124px){ #rce_section_9_4_3{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 770px){ #rce_section_9_4_3{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 430px){ #rce_section_9_4_3{ font-size: 14px; text-align: left; color: rgb(255, 255, 255); font-family: Poppins; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); fill: rgb(0, 0, 0);} }
+@media(max-width: 2124px){ #rce_section_9_4_3:hover{ background-color:rgba(0, 0, 0, 0);border-color:rgb(255, 255, 255);color:rgb(255, 255, 255);} }
+@media(max-width: 2124px){ #rce_section_9_2{ color: rgb(255, 255, 255); background-color: rgba(36, 181, 34, 0.8); width: 200px; min-height: 50px; border: 1px solid rgba(34, 181, 64, 0.8); font-size: 16px; border-radius: 50px; fill: rgb(0, 0, 0);} }
+@media(max-width: 770px){ #rce_section_9_2{ color: rgb(255, 255, 255); background-color: rgba(36, 181, 34, 0.8); width: 200px; min-height: 50px; border: 1px solid rgba(34, 181, 64, 0.8); font-size: 16px; border-radius: 50px; fill: rgb(0, 0, 0);} }
+@media(max-width: 430px){ #rce_section_9_2{ color: rgb(255, 255, 255); background-color: rgba(36, 181, 34, 0.8); width: 200px; min-height: 50px; border: 1px solid rgba(34, 181, 64, 0.8); font-size: 16px; border-radius: 50px; fill: rgb(0, 0, 0);} }
+@media(max-width: 2124px){ #rce_section_9_2:hover{ background-color:#1c921c;border-color:#1c921c;color:rgb(255, 255, 255);} }
+@media(max-width: 770px){ #rce_section_9_2:hover{ background-color:#1c921c;border-color:#1c921c;color:rgb(255, 255, 255);} }
+@media(max-width: 430px){ #rce_section_9_2:hover{ background-color:#1c921c;border-color:#1c921c;color:rgb(255, 255, 255);} }
+@media(max-width: 2124px){ #rce_section_9_6{ display: flex; align-items: center; justify-content: flex-end; height: 100%; grid-gap:40px;} }
+@media(max-width: 770px){ #rce_section_9_6{ display: flex; align-items: center; justify-content: flex-end; height: 100%; grid-gap:40px;} }
+@media(max-width: 430px){ #rce_section_9_6{ display: flex; align-items: center; justify-content: flex-end; height: 100%; grid-gap:40px;} }
+@media(max-width: 2124px){ #rce_section_9_7{ display: flex; align-items: center; justify-content: flex-end; height: 100%;} }
+@media(max-width: 770px){ #rce_section_9_7{ display: flex; align-items: center; justify-content: flex-end; height: 100%;} }
+@media(max-width: 430px){ #rce_section_9_7{ display: flex; align-items: center; justify-content: flex-end; height: 100%;} }
+@media(max-width: 2124px){ #rce_section_9_4{ color: rgb(255, 255, 255); background-color: rgba(34, 34, 181, 0.8); width: 200px; min-height: 50px; border: 1px solid rgba(34, 34, 181, 0.8); font-size: 16px; border-radius: 50px; fill: rgb(0, 0, 0);} }
+@media(max-width: 770px){ #rce_section_9_4{ color: rgb(255, 255, 255); background-color: rgba(34, 34, 181, 0.8); width: 200px; min-height: 50px; border: 1px solid rgba(34, 34, 181, 0.8); font-size: 16px; border-radius: 50px; fill: rgb(0, 0, 0);} }
+@media(max-width: 430px){ #rce_section_9_4{ color: rgb(255, 255, 255); background-color: rgba(34, 34, 181, 0.8); width: 200px; min-height: 50px; border: 1px solid rgba(34, 34, 181, 0.8); font-size: 16px; border-radius: 50px; fill: rgb(0, 0, 0); margin: 10px;} }
+@media(max-width: 2124px){ #rce_section_9_4:hover{ background-color:#4949e9;border-color:rgb(34, 34, 181);color:rgb(255, 255, 255);} }
+@media(max-width: 770px){ #rce_section_9_4:hover{ background-color:#4949e9;border-color:rgb(34, 34, 181);color:rgb(255, 255, 255);} }
+@media(max-width: 430px){ #rce_section_9_4:hover{ background-color:#4949e9;border-color:rgb(34, 34, 181);color:rgb(255, 255, 255);} }
+#rce_section_2{background-image: linear-gradient(#ffffff, #ffffff);}@media(max-width: 770px){#rce_section_2{ background-image: linear-gradient(#ffffff, #ffffff);}}@media(max-width: 430px){#rce_section_2{ background-image: linear-gradient(#ffffff, #ffffff); }}#rce_section_3{background-image: linear-gradient(#2222b5ba, #2222b5ba), url("https://images.pexels.com/photos/4846097/pexels-photo-4846097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");}@media(max-width: 770px){#rce_section_3{ background-image: linear-gradient(rgba(34, 34, 181, 0.7294117647058823), rgba(34, 34, 181, 0.7294117647058823)), url("https://images.pexels.com/photos/4846097/pexels-photo-4846097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");}}@media(max-width: 430px){#rce_section_3{ background-image: linear-gradient(rgba(34, 34, 181, 0.7294117647058823), rgba(34, 34, 181, 0.7294117647058823)), url("https://images.pexels.com/photos/4846097/pexels-photo-4846097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); }}#rce_section_5{background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));}@media(max-width: 770px){#rce_section_5{ background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));}}@media(max-width: 430px){#rce_section_5{ background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)); }}#rce_section_6{background-image: linear-gradient(#ffffff, #ffffff);}@media(max-width: 770px){#rce_section_6{ background-image: linear-gradient(#ffffff, #ffffff);}}@media(max-width: 430px){#rce_section_6{ background-image: linear-gradient(#ffffff, #ffffff); }}#rce_section_4{background-image: linear-gradient(#ffffff, #ffffff), url("https://app.marketingblocks.ai/upload/section_bg_4.png");}@media(max-width: 770px){#rce_section_4{ background-image: linear-gradient(#ffffff, #ffffff), url("https://app.marketingblocks.ai/upload/section_bg_4.png");}}@media(max-width: 430px){#rce_section_4{ background-image: linear-gradient(#ffffff, #ffffff), url("https://app.marketingblocks.ai/upload/section_bg_4.png"); }}#rce_section_7{background-image: linear-gradient(white, white);}@media(max-width: 770px){#rce_section_7{ background-image: linear-gradient(#ffffff, #ffffff);}}@media(max-width: 430px){#rce_section_7{ background-image: linear-gradient(white, white); }}#rce_section_8{background-image: linear-gradient(#2222b566, #2222b566), url("https://images.pexels.com/photos/867092/pexels-photo-867092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");}@media(max-width: 770px){#rce_section_8{ background-image: linear-gradient(rgba(34, 34, 181, 0.4), rgba(34, 34, 181, 0.4)), url("https://images.pexels.com/photos/867092/pexels-photo-867092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");}}@media(max-width: 430px){#rce_section_8{ background-image: linear-gradient(rgba(34, 34, 181, 0.4), rgba(34, 34, 181, 0.4)), url("https://images.pexels.com/photos/867092/pexels-photo-867092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); }}#rce_section_1{background-image: linear-gradient(#2222b505, #2222b505);}@media(max-width: 770px){#rce_section_1{ background-image: linear-gradient(rgba(34, 34, 181, 0.0196078431372549), rgba(34, 34, 181, 0.0196078431372549));}}@media(max-width: 430px){#rce_section_1{ background-image: linear-gradient(rgba(34, 34, 181, 0.0196078431372549), rgba(34, 34, 181, 0.0196078431372549)); }}#rce_section_11{background-image: linear-gradient(white, white);}@media(max-width: 770px){#rce_section_11{ background-image: linear-gradient(white, white);}}@media(max-width: 430px){#rce_section_11{ background-image: linear-gradient(white, white); }}#rce_section_9{background-image: linear-gradient(#ffffff, #ffffff);}@media(max-width: 770px){#rce_section_9{ background-image: linear-gradient(#ffffff, #ffffff);}}@media(max-width: 430px){#rce_section_9{ background-image: linear-gradient(#ffffff, #ffffff); }}
+</style>	
+<input type="hidden" name="" id="page_id" value="15007">
+	
+<div class="rc-modal" id="custom_action_modal">
+		
+<div class="rc-loading-overlay-wrap">
+</div>
+		
+<div class="rc-modal-header">
+			
+<div class="rc-modal-header-title" id="rce_custom_action_title">Add Giveaway Reward 
+<span class="action-preview-point">+3
+</span>
+</div>
+			
+<div class="" style="text-align: center; font-size: 14px; margin-top: 10px;" id="custom_action_preview_desc">
+</div>
+			
+<div class="rc-modal-close">
+<i class="fa fa-times">
+</i>
+</div>
+		
+</div>
+		
+<div class="rc-modal-content">
+			
+<div class="rc-flex" style="padding-bottom: 10px;">
+				
+<div class="rc-flex rc-circle-number">
+					1
+				
+</div>	
+			
+</div>
+			
+			
+<div class="rc-flex" style="height: 60px;" id="rce_custom_action_btn">
+				 
+			
+</div>
+			
+<div class="rc-preview-desc">
+				Click to visit a special site to prepare your answer.
+			
+</div>
+			
+<div class="rc-flex" style="height: 100px; font-size: 35px; color: #46a27a; ">
+				
+<i class="fa fa-long-arrow-down">
+</i>
+			
+</div>
+			
+<div class="rc-flex" style="padding-bottom: 10px;">
+				
+<div class="rc-flex rc-circle-number">
+					2
+				
+</div>	
+			
+</div>
+			
+<div class="rc-flex" id="rce_action_question" style="font-size: 16px; font-weight: bold;">
+				What is your name?
+			
+</div>
+			
+<div class="rc-flex" id="rce_action_answer_wrap">
+				 
+			
+</div>
+			
+<div class="rc-preview-desc">
+				Please answer the above question to get points.
+			
+</div>
+		
+</div>
+	
+</div> 
+
+	
+<div class="rce-checkout-wrap" style="display:none;">
+		
+<div class="rce-checkout-window">
+			
+<div class="rce-checkout-close-btn">
+				
+<i class="fa fa-times">
+</i>
+			
+</div>
+			
+<div class="row">
+				
+<form target="_blank" name="rce_payment_form"  method="post"  id="rce_payment_form" action="https://app.marketingblocks.ai/payment/payPaypal">
+
+				
+<div class="col-md-12">
+					
+<div class="rce-grid rce-grid-2" style="border-bottom:1px solid #ccc; padding-bottom: 10px; grid-template-columns:repeat(2, 1fr) !important;">
+						
+<div class="rce-flex-start" style="font-size:32px; width:100%; font-weight:bold;">
+							My Cart
+						
+</div>
+						
+<div class="rce-flex-end">
+							
+<div class="btn rc-btn-success" id="empty_cart">Empty Cart
+</div>
+						
+</div>
+					
+</div>
+				
+</div>
+				
+				
+<div class="col-md-12">
+					
+<div class="rce-cart-product-window">
+						 
+					
+</div>
+					
+<div style="display: grid; grid-template-columns:repeat(2, 1fr);">
+						
+<div class="rce-flex-start" style="font-size: 20px; font-weight: bold; padding: 10px;">Total
+</div>
+						
+<div class="rce-flex-end rce-cart-product-total">
+							$123123
+						
+</div>
+					
+</div>
+					
+<div class="rce-flex-end mt-4">
+						
+<button type="button" class="btn  rc-btn-success" style="width:180px;" id="cart_pay_btn"> Pay Now 
+</button>
+					
+</div>
+				
+</div>
+				
+</form>
+			
+</div>
+		
+</div>
+	
+</div>
+	
+<form method="post" action="https://app.marketingblocks.ai/payment/checkout" id="checkout_form" style="display: none;">
+        
+<input type="hidden" name="_token" value="WhdFisMscShWpZ3oPrMtLSTO1HeESpQ4ZF94BTN3">        
+<input type="hidden" name="user_id" value="18317">
+        
+<input type="hidden" name="page_id" value="15007">
+        
+<input type="hidden" name="product_infos" id="product_infos">
+        
+<input type="hidden" name="cart_check" id="cart_check">
+	
+</form>
+	
+<div class="rce-cart-btn-wrap" style="display:none;">
+		
+<svg   viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 5px;">
+		
+<path d="M17.8393 3.9878C17.7565 3.86817 17.646 3.77038 17.5172 3.70283C17.3883 3.63527 17.245 3.59996 17.0995 3.59991H4.79957L3.761 1.10697C3.62482 0.778683 3.39423 0.49822 3.09846 0.301146C2.80269 0.104071 2.45506 -0.000738916 2.09964 3.92141e-06H0V1.79996H2.09964L6.36913 12.0462C6.43752 12.2101 6.55289 12.3502 6.7007 12.4486C6.84852 12.5471 7.02218 12.5997 7.19981 12.5997H14.3996C14.7749 12.5997 15.1106 12.3666 15.2429 12.0165L17.9428 4.81668C17.9939 4.68044 18.0111 4.53386 17.9931 4.3895C17.975 4.24514 17.9223 4.10731 17.8393 3.9878Z" fill="#ffffff"/>
+		
+<path d="M7.64977 16.1999C8.39533 16.1999 8.99973 15.5955 8.99973 14.85C8.99973 14.1044 8.39533 13.5 7.64977 13.5C6.9042 13.5 6.2998 14.1044 6.2998 14.85C6.2998 15.5955 6.9042 16.1999 7.64977 16.1999Z" fill="#ffffff"/>
+		
+<path d="M13.9496 16.1999C14.6951 16.1999 15.2995 15.5955 15.2995 14.85C15.2995 14.1044 14.6951 13.5 13.9496 13.5C13.204 13.5 12.5996 14.1044 12.5996 14.85C12.5996 15.5955 13.204 16.1999 13.9496 16.1999Z" fill="#ffffff"/>
+		
+</svg>
+		
+<div class="rce-cart-item-count">0
+</div>
+	
+</div>
+	
+
+    
+</body>
+
+<footer class="rc-main-footer">
+     
+</footer> 
+
+</body>
+
+
+<script type="text/javascript">
+    var asset_url = "https://app.marketingblocks.ai/";
+    var vid = document.getElementById("rc_preview_video");
+    var _token = "WhdFisMscShWpZ3oPrMtLSTO1HeESpQ4ZF94BTN3";
+    var asw_url = "https://marketingblocks.s3.amazonaws.com/";
+
+    const inViewport = (entries, observer) => {
+        entries.forEach(entry => {
+            entry.target.classList.toggle("go", entry.isIntersecting);
+        });
+    };
+    const Obs = new IntersectionObserver(inViewport);
+    const obsOptions = {}; 
+    const ELs_inViewport = document.querySelectorAll('.animated');
+    ELs_inViewport.forEach(EL => {
+      Obs.observe(EL, obsOptions);
+    });
+
+</script>
+
+</html>
