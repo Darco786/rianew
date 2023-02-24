@@ -2852,3 +2852,13 @@ img[src*="template_1_arrow.png"] {
 	display: flex;
 	justify-content: center;
 }
+
+@media (max-width:768px) {
+	.rce-testimonial-wrap {
+		display: grid;
+		grid-template-columns: repeat(1, minmax(320px, 1fr));
+		grid-gap: 20px;
+		width: 100%;
+	}
+	
+}
