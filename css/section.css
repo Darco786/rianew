@@ -2860,5 +2860,12 @@ img[src*="template_1_arrow.png"] {
 		grid-gap: 20px;
 		width: 100%;
 	}
+	.rce-menu-item-text {
+		font-size: 12px;
+		font-weight: inherit;
+		color: inherit;
+		font-family: inherit;
+		line-height: inherit;
+	}
 	
 }
